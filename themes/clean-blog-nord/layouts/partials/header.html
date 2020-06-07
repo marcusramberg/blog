@@ -4,29 +4,25 @@
 <head>
 
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ if eq .Description "" }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
     {{- with $.Param "author" }}
     <meta name="author" content="{{ . }}">
     {{- end }}
-{{ hugo.Generator }}
+    {{ hugo.Generator }}
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
-     <link rel="alternate" href="{{ "index.xml" | relURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
+    {{ range .AlternativeOutputFormats -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ end -}}
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="{{ .Site.BaseURL }}/css/clean-blog.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    {{ $baseURL := .Site.BaseURL }}
-    {{ range .Site.Params.customCSS }}
-      <script src="{{ $baseURL }}/{{ . }}"></script>
-    {{ end }}
 
     <!-- Custom Fonts -->
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">

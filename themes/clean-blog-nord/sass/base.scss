@@ -284,13 +284,13 @@ hr.small {
 .post-preview > .post-meta {
   color: var(--base0a);
   font-size: 18px;
-  font-style: italic;
   margin-top: 0;
 }
 
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: var(--base0d);
+  font-style: bold;
 }
 
 .post-preview > .post-meta > a:hover,

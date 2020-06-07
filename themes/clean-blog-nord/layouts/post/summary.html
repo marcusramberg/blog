@@ -1,5 +1,9 @@
                <div class="post-preview">
+      {{ if (not (isset .Params "externalurl")) }}
                  <a href="{{ .Permalink }}">
+      {{ else }}
+        <a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a>
+      {{ end }}
                       <h2 class="post-title">{{ .Title }}</h2>
                     </a>
                     <section class="summary">
