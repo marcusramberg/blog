@@ -1,11 +1,11 @@
                <div class="post-preview">
+                     <h2 class="post-title">
       {{ if (not (isset .Params "externalurl")) }}
-                 <a href="{{ .Permalink }}">
+              <a href="{{ .Permalink }}"> {{ .Title }}</h2> </a>
       {{ else }}
-        <a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a>
+              <a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a>
       {{ end }}
-                      <h2 class="post-title">{{ .Title }}</h2>
-                    </a>
+               </h2>
                     <section class="summary">
                         {{ .Summary }} {{ if .Truncated }} <a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
                     </section>
@@ -14,3 +14,5 @@
                   </p>
                 </div>
                 <hr>
+
+

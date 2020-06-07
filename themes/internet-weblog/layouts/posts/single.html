@@ -4,12 +4,13 @@
   <main class="content">
 
     <article class="post">
+        <h2>
       {{ if (not (isset .Params "externalurl")) }}
-        <h2><a rel="full-article" href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              <a href="{{ .Permalink }}"> {{ .Title }}</h2> </a>
       {{ else }}
-        <h2><a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a></h2>
+              <a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a>
       {{ end }}
-
+        </h2>
       <div class="postmeta">Posted on <time datetime="{{ .Date }}" pubdate="">{{ .Date.Format "January 2, 2006" }}</time> in
         <span class="categories">
           {{ range $i, $v := .Params.categories }}
