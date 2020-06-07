@@ -1,0 +1,17 @@
+name = "Hugo Clean Blog"
+license = "Apache 2.0"
+licenselink = "https://github.com/humboldtux/startbootstrap-clean-blog/blob/master/LICENSE.md"
+description = "Minimalist blog template"
+homepage = "https://github.com/humboldtux/startbootstrap-clean-blog"
+tags = ["blog", "bootstrap"]
+features = ["blog", "bootstrap"]
+min_version = 0.18
+
+[author]
+  name = "Derrick Showers"
+  homepage = "http://derrickshowers.com"
+
+# Original theme
+[original]
+  name = "Startbootstrap Clean Blog"
+  repo = "https://github.com/humboldtux/startbootstrap-clean-blog/"

@@ -2,6 +2,7 @@
 title = "Blog reboot"
 author = ["Marcus Ramberg"]
 publishDate = 2020-06-06T00:00:00+02:00
+tags = ["meta"]
 draft = false
 +++
 
@@ -13,10 +14,8 @@ Here's how this looks as I'm writing this post:
 
 {{< figure src="/images/doom-shot.png" >}}
 
-Also, since the color scheme of my life is [Nord](https://nordtheme.com/), this blog is now also Nord themed. I took the Hugo [base16](https://themes.gohugo.io/base16/) theme and applied nord colors instead.
-
-to export to the blog from doom, it's a simple localleader e H H
+Also, since the color scheme of my life is [Nord](https://nordtheme.com/), this blog is now also Nord themed. I took the Hugo [base16](https://themes.gohugo.io/base16/) theme and applied nord colors instead. to export to the blog from doom, it's a simple localleader e H H. To setup GH Actions posting, I followed [this recipe](https://ruddra.com/posts/hugo-deploy-static-page-using-github-actions/).
 
 ## Future {#future}
 
-I'll try to post something every day from now on, be it a simple link or note, and I'm using org mode to help me, so stay tuned for more posts here soon!
+I'll try to post something every day from now on, be it a simple link or note, and I'm using org mode to help me, so stay tuned for more posts here soon! Be warned, for the near future the posts might be emacs heavy, as it's one of my main focus areas at the moment :)

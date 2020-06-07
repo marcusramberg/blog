@@ -1,0 +1,12 @@
+               <div class="post-preview">
+                 <a href="{{ .Permalink }}">
+                      <h2 class="post-title">{{ .Title }}</h2>
+                    </a>
+                    <section class="summary">
+                        {{ .Summary }} {{ if .Truncated }} <a href="{{ .RelPermalink }}">Read More...</a>{{ end }}
+                    </section>
+                    <p class="post-meta">
+                      {{ partial "meta.html" .}}
+                  </p>
+                </div>
+                <hr>
