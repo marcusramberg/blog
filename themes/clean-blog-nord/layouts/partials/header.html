@@ -6,15 +6,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="{{ if eq .Description "" }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+    {{- with $.Param "author" }}
+    <meta name="author" content="{{ . }}">
+    {{- end }}
+{{ hugo.Generator }}
 
     <title>{{ .Title }} -- {{ .Site.Title }}</title>
 
-    {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-    <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
-    {{ end }}
+     <link rel="alternate" href="{{ "index.xml" | relURL }}" type="application/rss+xml" title="{{ .Site.Title }}">
 
     <!-- Bootstrap Core CSS -->
     <link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">
