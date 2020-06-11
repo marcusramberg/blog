@@ -460,6 +460,13 @@ form .row:first-child .floating-label-form-group {
   background: var(--base0c);
 }
 
+
+figure img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+}
+
 img::selection {
   color: var(--base06);
   background: 0 0;
