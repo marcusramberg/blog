@@ -6,4 +6,4 @@ tags:
   - photo
 ---
 
-{{<figure alt="Oslo-Sunset" src="images/2020-06-11-Oslo-Sunset.jpg" width="1280">}}
+{{<figure alt="Oslo-Sunset" src="/images/2020-06-11-Oslo-Sunset.jpg" width="1280">}}
