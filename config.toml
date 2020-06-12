@@ -23,7 +23,7 @@ name = "Marcus Ramberg"
   email = "marcusramberg@gmail.com"
 
   # Number of post summaries to show on front page, comment out to allow default(4)
-  postSummariesFrontPage = 4
+  postSummariesFrontPage = 8
 
   # Set to false to exclude read time from header of post
   showReadTime = true

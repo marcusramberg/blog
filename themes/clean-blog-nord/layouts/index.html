@@ -22,7 +22,12 @@
           {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") (or .Site.Params.paginate 3) }}
             {{ range $paginator.Pages }}
-                {{ .Render "summary"}}
+          {{ if in .Params.tags "photo" }}
+          <h2><a href="{{ .Permalink }}"> {{ .Title }}</a></h2>
+            {{ .Content }}
+          {{ else }}
+            {{ .Render "summary"}}
+          {{end}}
             {{ end }}
           <!-- Pager -->
           <ul class="pager">

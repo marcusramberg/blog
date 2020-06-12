@@ -6,12 +6,59 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Thu, 11 Jun 2020 12:08:18 +0200</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2020 00:00:00 +0200</lastBuildDate>
     <atom:link href="https://marcus.nordaaker.com/" rel="self" type="application/rss+xml" />
     
       
       <item>
-        <title>Oslo-Sunset</title>
+        <title>Posting to Hugo from iOS</title>
+        <link>https://marcus.nordaaker.com/post/posting-to-hugo-from-ios/</link>
+        <pubDate>Fri, 12 Jun 2020 00:00:00 +0200</pubDate>
+        <author> </author>
+        <guid>https://marcus.nordaaker.com/post/posting-to-hugo-from-ios/</guid>
+        <description>&lt;p&gt;I like to take pictures, and some of the point for me of rebooting this blog was to have a place I control myself to publish things, rather than relying on Facebook or Instagram to own my data. However, since my trusty iPhone is my camera 99% of the time, that means I rely on having a simple way to post from the phone, otherwise it&amp;rsquo;s just not going to happen.&lt;/p&gt;
+&lt;p&gt;Luckily, with IOS 13, Power users have a much improved tool for these kind of workflows. I started writing my first workflow, and was amazed by how easy and powerful it is. I was able to make a share extension for photos that just asks for a post title and then posts directly to my github blog repo. &lt;a href=&#34;https://marcus.nordaaker.com/post/2020-06-11-oslo-sunset/&#34;&gt;This sunset&lt;/a&gt; is an example of a post using this workflow :)&lt;/p&gt;
+&lt;p&gt;If you want to borrow my workflow, it&amp;rsquo;s avilable through icloud &lt;a href=&#34;https://www.icloud.com/shortcuts/99d972dc7de74d29aee41f1e089953c3&#34;&gt;here&lt;/a&gt; - I&amp;rsquo;ll also go through it step by step to quickly explain how it work&lt;/p&gt;
+&lt;h2 id=&#34;step-by-step&#34;&gt;Step by step&lt;/h2&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://marcus.nordaaker.com/images/ios-hugo-photos-1.jpg&#34;
+         alt=&#34;Workflow Part 1&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First I resize the photo to a more handy format, as the iPhone pictures out of the box takes about 2 MB, which is a bit much for a web page.&lt;/li&gt;
+&lt;li&gt;Then I tell working copy to pull latest posts to make sure we&amp;rsquo;re not behind&lt;/li&gt;
+&lt;li&gt;We ask for a title and set that to a variable&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://marcus.nordaaker.com/images/ios-hugo-photos-2.jpg&#34;
+         alt=&#34;Workflow Part 2&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Then replace spaces in the url to create a slug,&lt;/li&gt;
+&lt;li&gt;Add the picture to static images in the blog photo with date formated as yyyy-mm-dd and our slug&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;https://marcus.nordaaker.com/images/ios-hugo-photos-3.jpg&#34;
+         alt=&#34;Workflow Part 3&#34;/&gt; 
+&lt;/figure&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Create a text document with the post content including publish date and the photo tag&lt;/li&gt;
+&lt;li&gt;Write that to the corresponding post filename.&lt;/li&gt;
+&lt;li&gt;Finally commit and push to remote.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To give credit where credit is due, most of the heavy lifting here is done by &lt;a href=&#34;https://workingcopyapp.com/&#34;&gt;Working Copy&lt;/a&gt; - it&amp;rsquo;s a fantastic and fully featured git client for ios. If you do anything with git, it&amp;rsquo;s worth buying.&lt;/p&gt;
+&lt;h2 id=&#34;the-future&#34;&gt;The Future&lt;/h2&gt;
+&lt;p&gt;This workflow is enough for me to be able to do simple posts, but of course it could be improved. Things I&amp;rsquo;m considering are allowing custom tags, and getting metadata from exif.&lt;/p&gt;
+</description>
+      </item>
+      
+    
+      
+      <item>
+        <title>Oslo Sunset</title>
         <link>https://marcus.nordaaker.com/post/2020-06-11-oslo-sunset/</link>
         <pubDate>Thu, 11 Jun 2020 12:08:18 +0200</pubDate>
         <author> </author>
@@ -413,58 +460,58 @@ actions in mojolicious at the moment:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env perl&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; Mojolicious::Lite;
 
-get &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/foo&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
+get &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/foo&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
 &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $self &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; shift;
-  $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;render_later;
+  $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;render_later;
 
 &lt;span style=&#34;color:#75715e&#34;&gt;# Concurrent requests&lt;/span&gt;
 
-&lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Mojo::IOLoop&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;delay(
+&lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;Mojo::IOLoop&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;delay(
     &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
       &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $delay &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; shift;
-&lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $url   &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Mojo::URL&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;api.metacpan.org/v0/module/_search&amp;#39;&lt;/span&gt;);
-      $url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({sort &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date:desc&amp;#39;&lt;/span&gt;});
-$self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mojo&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;begin);
-      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mango&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;begin);
+&lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $url   &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Mojo::URL&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;api.metacpan.org/v0/module/_search&amp;#39;&lt;/span&gt;);
+      $url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({sort &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date:desc&amp;#39;&lt;/span&gt;});
+$self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mojo&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;begin);
+      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mango&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;begin);
 },
 
     &lt;span style=&#34;color:#75715e&#34;&gt;# Delayed rendering&lt;/span&gt;
     &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
       &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; ($delay, $mojo, $mango) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; @_;
-      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;stash (
-        mojo  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $mojo&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/_source/release&amp;#39;&lt;/span&gt;),
-        mango &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $mango&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/_source/release&amp;#39;&lt;/span&gt;)
+      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;stash (
+        mojo  &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $mojo&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/_source/release&amp;#39;&lt;/span&gt;),
+        mango &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $mango&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/_source/release&amp;#39;&lt;/span&gt;)
       );
-      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;render;
+      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;render;
     }
 
-)&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;catch(&lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; { shift&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;render_exception(shift) });
-&lt;span style=&#34;color:#f92672&#34;&gt;\&lt;/span&gt;$delay&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;wait &lt;span style=&#34;color:#66d9ef&#34;&gt;unless&lt;/span&gt; Mojo::IOLoop&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;is_running;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+)&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;catch(&lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; { shift&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;render_exception(shift) });
+&lt;span style=&#34;color:#f92672&#34;&gt;\&lt;/span&gt;$delay&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;wait &lt;span style=&#34;color:#66d9ef&#34;&gt;unless&lt;/span&gt; Mojo::IOLoop&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;is_running;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;With the help of my new helper, that can be turned into this:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-perl&#34; data-lang=&#34;perl&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;#!/usr/bin/env perl&lt;/span&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;use&lt;/span&gt; Mojolicious::Lite;
 
 plugin &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;RenderSteps&amp;#39;&lt;/span&gt;;
 
-get &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/foo&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
+get &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/foo&amp;#39;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
 
 &lt;span style=&#34;color:#75715e&#34;&gt;# Concurrent requests&lt;/span&gt;
 
 &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $self&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;shift;
-  $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;render&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;steps(
+  $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;render&lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;steps(
 &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
 &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $delay &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; shift;
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Mojo::URL&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;api.metacpan.org/v0/module/\_search&amp;#39;&lt;/span&gt;);
-$url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({sort &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date:desc&amp;#39;&lt;/span&gt;});
-      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mojo&amp;#39;&lt;/span&gt;})  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;begin);
-$self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mango&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;begin);
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; $url &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Mojo::URL&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;api.metacpan.org/v0/module/\_search&amp;#39;&lt;/span&gt;);
+$url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({sort &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;date:desc&amp;#39;&lt;/span&gt;});
+      $self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mojo&amp;#39;&lt;/span&gt;})  &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;begin);
+$self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;ua&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;get($url&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;clone&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;query({&lt;span style=&#34;color:#e6db74&#34;&gt;q =&amp;gt; &lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;mango&amp;#39;&lt;/span&gt;}) &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $delay&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;begin);
     },
     &lt;span style=&#34;color:#75715e&#34;&gt;# Automatic rendering at after last step&lt;/span&gt;
     &lt;span style=&#34;color:#66d9ef&#34;&gt;sub&lt;/span&gt; {
-      &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; ($delay, $mojo, $mango) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; @&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;*&lt;/span&gt;&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;;&lt;/span&gt;
-&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt;self&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;stash (
-        mojo  &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; $mojo&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/\_source/release&amp;#39;&lt;/span&gt;),
-mango &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;\&lt;/span&gt;$mango&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/\_source/release&amp;#39;&lt;/span&gt;)
+      &lt;span style=&#34;color:#66d9ef&#34;&gt;my&lt;/span&gt; ($delay, $mojo, $mango) &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; @&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;*;&lt;/span&gt;
+&lt;span style=&#34;color:#960050;background-color:#1e0010&#34;&gt;$&lt;/span&gt;self&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;stash (
+        mojo  &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; $mojo&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/\_source/release&amp;#39;&lt;/span&gt;),
+mango &lt;span style=&#34;color:#f92672&#34;&gt;=&amp;gt;&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;\&lt;/span&gt;$mango&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;res&lt;span style=&#34;color:#f92672&#34;&gt;-&amp;gt;&lt;/span&gt;json(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;/hits/hits/0/\_source/release&amp;#39;&lt;/span&gt;)
 );
 }
 );
@@ -565,7 +612,7 @@ allows us to automatically stage all feature branches that pass their tests.&lt;
 &lt;p&gt;Installing dokku and drone is simple enough, and well documented in their
 respective projects, so I won&amp;rsquo;t cover that here. However, here is the
 .drone.yml config we use in the Output web backend repository:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;image&lt;/span&gt;: bradrydzewski/ruby:&lt;span style=&#34;color:#ae81ff&#34;&gt;2.1&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;.1&lt;/span&gt; 
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;image&lt;/span&gt;: bradrydzewski/ruby:&lt;span style=&#34;color:#ae81ff&#34;&gt;2.1.1&lt;/span&gt; 
 &lt;span style=&#34;color:#66d9ef&#34;&gt;cache&lt;/span&gt;: 
   - /tmp/bundler
 &lt;span style=&#34;color:#66d9ef&#34;&gt;env&lt;/span&gt;:

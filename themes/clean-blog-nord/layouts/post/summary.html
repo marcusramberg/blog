@@ -1,7 +1,7 @@
                <div class="post-preview">
                      <h2 class="post-title">
       {{ if (not (isset .Params "externalurl")) }}
-              <a href="{{ .Permalink }}"> {{ .Title }}</h2> </a>
+              <a href="{{ .Permalink }}"> {{ .Title }}</a>
       {{ else }}
               <a rel="remote-article" href="{{ .Params.externalurl }}">→ {{ .Title }}</a> <a href="{{ .Permalink }}">∞</a>
       {{ end }}
