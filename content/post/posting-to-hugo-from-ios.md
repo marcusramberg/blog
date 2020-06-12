@@ -16,7 +16,7 @@ If you want to borrow my workflow, it's avilable through icloud [here](https://w
 
 {{<figure alt="Workflow Part 1" src="/images/ios-hugo-photos-1.jpg">}}
 
-- First I resize the photo to a more handy format, as the iPhone pictures out of the box takes about 2 GB, which is a bit much for a web page.
+- First I resize the photo to a more handy format, as the iPhone pictures out of the box takes about 2 MB, which is a bit much for a web page.
 - Then I tell working copy to pull latest posts to make sure we're not behind
 - We ask for a title and set that to a variable
 
