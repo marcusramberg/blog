@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
-            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") (or .Site.Params.paginate 3) }}
+            {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") (or .Site.Params.paginate 10) }}
             {{ range $paginator.Pages }}
           {{ if in .Params.tags "photo" }}
           <h2><a href="{{ .Permalink }}"> {{ .Title }}</a></h2>
