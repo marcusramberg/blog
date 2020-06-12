@@ -6,4 +6,4 @@ tags:
   - photo
 ---
 
-{{<figure alt="Graabein redux" src="/images/2020-06-12-Graabein redux.jpg" width="1280">}}
+{{<figure alt="Graabein redux" src="/images/2020-06-12-Graabein-redux.jpg" width="1280">}}
