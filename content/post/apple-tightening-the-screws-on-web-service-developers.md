@@ -3,7 +3,7 @@ title = "Apple tightening the screws on web service developers"
 author = ["Marcus Ramberg"]
 publishDate = 2020-06-17T00:00:00+02:00
 tags = ["ios", "apple"]
-draft = true
+draft = false
 externalUrl = "https://twitter.com/dhh/status/1272968382329942017"
 +++
 
