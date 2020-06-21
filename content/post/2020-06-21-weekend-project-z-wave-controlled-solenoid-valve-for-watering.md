@@ -10,7 +10,7 @@ Recently, I've set up a manual micro-drip system for our green house and flowers
 
 {{<figure src="/images/wiring.jpg" alt="Valve control wiring">}}
 
-Basically I just combined a z-wave light switch with the solenoid switch, stuffed it into a waterproof box and connected it to the water hose. Presto:
+Basically I just combined a z-wave light switch with the solenoid switch, stuffed it into a waterproof box and connected it to the water hose. I also added some heat shrink with glue to waterproof the solenoid sensor. I took some leftover connectors I had to attach it to a garden hose connector. Presto:
 
 {{<youtube id="ffNVmQsQRH0" autoplay="true">}}
 
