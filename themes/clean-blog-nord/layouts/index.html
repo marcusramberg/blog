@@ -25,6 +25,7 @@
           {{ if in .Params.tags "photo" }}
           <h2><a href="{{ .Permalink }}"> {{ .Title }}</a></h2>
             {{ .Content }}
+          <small>{{ dateFormat .Site.Params.DateForm .Date }}</small>
           {{ else }}
             {{ .Render "summary"}}
           {{end}}
