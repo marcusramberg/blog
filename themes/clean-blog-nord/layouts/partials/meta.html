@@ -1,6 +1,6 @@
 {{ if (and (.Site.Params.ShowReadTime) (not .Params.externalurl) (not (in .Params.tags "photo"))) }}
   A {{ .ReadingTime }} minute read,
 {{ end }}
-Posted by <a href="#">{{ .Site.Params.Author }}</a> on {{ dateFormat .Site.Params.DateForm .Date }}
+Posted on {{ dateFormat .Site.Params.DateForm .Date }}
 <br />
 {{ partial "tags.html" .}}
