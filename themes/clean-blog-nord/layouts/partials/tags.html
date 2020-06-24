@@ -1,4 +1,4 @@
 {{ range $index, $tag :=  .Params.tags }}
-{{ if $index }} &#127991; {{ end }}
+{{ if $index }}   &#127991; {{ end }}
 <a class="tag" href="/tags/{{ urlize . }}">{{ lower . }}</a>
 {{ end }}
