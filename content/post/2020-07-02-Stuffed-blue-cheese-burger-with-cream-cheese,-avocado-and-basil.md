@@ -5,13 +5,13 @@ title: Stuffed  blue cheese burger with cream cheese, avocado and basil
 tags:
   - photo
   - bbq
-  - receipe
+  - recipe
 ---
 
 {{<figure alt="Stuffed  blue cheese burger with cream cheese, avocado and basil" src="/images/2020-07-02-Stuffed-blue-cheese-burger-with-cream-cheese,-avocado-and-basil.jpg" width="1280">}}
 <small>photo by denisb</small>
 
-I used normal ground meat, and seasoned with salt, pepper, paprika powder, a spoon of bbq sauce, a spoon of mint chilli sauce.
+I used 1 kg of ground beef for 4 burgers, and seasoned with salt, pepper, paprika powder, two ts of bbq sauce, a squirt of mint chilli sauce.
 
 To make the burgers, I use a [stuffed burger press](https://www.aliexpress.com/item/4000689186890.html), and make a cup for the filling.
 
