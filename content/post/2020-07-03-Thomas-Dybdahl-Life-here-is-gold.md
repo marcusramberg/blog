@@ -1,11 +1,11 @@
 ---
 date: "2020-07-03T23:06:18+02:00"
 published: true
-title: Thomas Dybdahl I like it here
+title: Thomas Dybdahl - Life here is gold
 externalUrl: https://www.youtube.com/watch?v=f8-9nKOxZwc
 tags:
-  - music 
+  - concert
 ---
 
-{{<YouTube f8-9nKOxZwc>}}
+{{<youtube f8-9nKOxZwc>}}
 Live at Akershus festning, July 2020
