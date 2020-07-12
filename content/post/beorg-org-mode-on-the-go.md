@@ -2,7 +2,7 @@
 title = "beorg - org mode on the go"
 author = ["Marcus Ramberg"]
 publishDate = 2020-06-08T00:00:00+02:00
-tags = ["orgmode", "ios"]
+tags = ["orgmode", "ios", "emacs"]
 draft = false
 externalUrl = "https://beorgapp.com/"
 +++
