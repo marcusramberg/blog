@@ -4,7 +4,8 @@ published: true
 title: Commander Keen On Hacked Switch
 externalUrl: https://eliasoenal.com/2020/07/12/commander-keen-for-nintendo-switch/
 tags:
-  - link
+  - games
+  - console
 ---
 Best reason to have a hacked switch really.
 
