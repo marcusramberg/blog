@@ -4,7 +4,7 @@ published: true
 title: Multi-arch docker images
 externalUrl: https://www.docker.com/blog/multi-arch-build-and-images-the-simple-way/
 tags:
-  - link
+  - containers
 ---
 Nice example including github actions workflow. Need to implement this for Convos soon
 

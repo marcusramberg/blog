@@ -4,8 +4,8 @@ published: true
 title: Homemade magnetic drill
 externalUrl: https://www.youtube.com/watch?v=PodhyGDKBBg&feature=share
 tags:
-  - link
   - diy
+  - video
 ---
 {{<youtube PodhyGDKBBg>}}
 

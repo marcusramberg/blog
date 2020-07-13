@@ -22,7 +22,7 @@
           {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }}
             {{ $paginator := .Paginate (where .Site.RegularPages "Section" "post") (or .Site.Params.paginate 10) }}
             {{ range $paginator.Pages }}
-          {{ if in .Params.tags "photo" }}
+          {{ if or (in .Params.tags "photo") (in .Params.tags "video") }}
           <h2><a href="{{ .Permalink }}"> {{ .Title }}</a></h2>
             {{ .Content }}
           <small>{{ dateFormat .Site.Params.DateForm .Date }}</small>

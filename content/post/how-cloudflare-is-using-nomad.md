@@ -2,7 +2,7 @@
 title = "How Cloudflare is using Nomad"
 author = ["Marcus Ramberg"]
 publishDate = 2020-06-09T00:00:00+02:00
-tags = ["devops", "orchestration"]
+tags = ["devops", "orchestration", "containers"]
 draft = false
 externalUrl = "https://blog.cloudflare.com/how-we-use-hashicorp-nomad/"
 +++
