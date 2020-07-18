@@ -4,7 +4,9 @@ published: true
 title: Typographical booty
 externalUrl: https://m.imgur.com/r/gifs/tdkQPU3
 tags:
-  - link
+  - typography
+  - gifs
 ---
 For once comic sans isn’t the worst. 
 
+{{<figure src="https://i.imgur.com/tdkQPU3.gif">}}
