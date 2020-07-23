@@ -4,7 +4,8 @@ published: true
 title: Terraform input validation 
 externalUrl: https://www.unixdaemon.net/cloud/introducing-terraform-input-validation/
 tags:
-  - link
+  - devops
+  - terraform
 ---
 Great intro to this recent feature by Wilson. 
 

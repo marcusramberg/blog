@@ -4,8 +4,8 @@ published: true
 title: High quality raspberry pi camera
 externalUrl: https://hackaday.com/2020/05/01/new-part-day-raspberry-pi-camera-gets-serious-with-12-megapixels-proper-lenses/
 tags:
-  - photo
   - raspberrypi
+  - photography
 ---
 I def need one of these
 

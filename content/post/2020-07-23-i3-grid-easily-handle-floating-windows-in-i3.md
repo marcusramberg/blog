@@ -3,7 +3,7 @@ title = "i3-grid - easily handle floating windows in i3"
 author = ["Marcus Ramberg"]
 publishDate = 2020-07-23T00:00:00+02:00
 tags = ["i3", "x11"]
-draft = true
+draft = false
 externalUrl = "https://github.com/justahuman1/i3-grid"
 +++
 
