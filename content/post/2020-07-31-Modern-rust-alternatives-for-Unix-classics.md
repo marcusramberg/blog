@@ -4,7 +4,8 @@ published: true
 title: Modern rust alternatives for Unix classics
 externalUrl: https://zaiste.net/posts/shell-commands-rust/
 tags:
-  - link
+  - unix
+  - rust
 ---
 I use several of these 
 
