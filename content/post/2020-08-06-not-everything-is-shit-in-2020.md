@@ -8,4 +8,4 @@ externalUrl = "https://www.youtube.com/watch?v=9FSLv3V2RzI"
 
 At least the freak brothers are back <3
 
-{{ youtube 9FSLv3V2RzI}}
+{{<youtube 9FSLv3V2RzI>}}
