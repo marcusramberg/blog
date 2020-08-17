@@ -4,7 +4,9 @@ published: true
 title: Haproxy-lua-jwt 
 externalUrl: https://github.com/haproxytech/haproxy-lua-jwt
 tags:
-  - link
+  - devops
+  - http
+  - lua
 ---
 JWT Validation implementation for HAProxy Lua host
 
