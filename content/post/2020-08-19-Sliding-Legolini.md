@@ -2,7 +2,7 @@
 date: "2020-08-19T22:08:21+02:00"
 published: true
 title: Sliding Legolini
-externalUrl: http://slidinglegolini.com/
+externalUrl: https://legolini.com/
 tags:
   - 3dprinting
 ---
