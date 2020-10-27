@@ -6,4 +6,5 @@ externalUrl: https://www.instagram.com/p/CCk036OAFRT/
 tags:
   - video
 ---
-{{<instagram CCk036OAFRT>}}
+
+Preview removed due to instagram changes.
