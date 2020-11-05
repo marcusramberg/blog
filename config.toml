@@ -1,6 +1,6 @@
 baseURL = "https://marcus.means.no/"
 languageCode = "en-us"
-title = "marcus . means . no"
+title = "marcus.means.no"
 theme = "clean-blog-nord"
 copyright = "Code released under the Apache 2.0 license."
 disqusShortname = "marcusramberg"
