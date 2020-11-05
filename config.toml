@@ -1,6 +1,6 @@
-baseURL = "https://marcus.nordaaker.com"
+baseURL = "https://marcus.means.no/"
 languageCode = "en-us"
-title = "Suburban Nerd"
+title = "marcus . means . no"
 theme = "clean-blog-nord"
 copyright = "Code released under the Apache 2.0 license."
 disqusShortname = "marcusramberg"
@@ -20,7 +20,7 @@ name = "Marcus Ramberg"
   Description = "Making (?:things|code|evil|mistakes)."
   Author = "Marcus Ramberg"
 
-  email = "marcusramberg@gmail.com"
+  email = "marcus@means.no"
 
   # Number of post summaries to show on front page, comment out to allow default(4)
   postSummariesFrontPage = 8
