@@ -8,5 +8,5 @@ draft = false
 externalUrl = "https://github.com/reorx/httpstat"
 +++
 
-Great  little tool for seeing http timing stats.
+Great little tool for seeing http timing stats.
 {{<tweet 1293380686808662016>}}
