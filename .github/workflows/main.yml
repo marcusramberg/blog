@@ -26,4 +26,4 @@ jobs:
           user_name: marcusramberg
           user_email: marcusramberg@gmail.com
           publish_branch: master
-          cname: marcus.nordaaker.com
+          cname: marcus.means.no
