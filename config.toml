@@ -26,7 +26,7 @@ name = "Marcus Ramberg"
   postSummariesFrontPage = 8
 
   # Set to false to exclude read time from header of post
-  showReadTime = true
+  showReadTime = false
 
 [[params.social]]
   title = "twitter"
