@@ -1,6 +1,6 @@
 baseURL = "https://marcus.means.no/"
 languageCode = "en-us"
-title = "marcus.means.no"
+title = "marcus"
 theme = "clean-blog-nord"
 copyright = "Code released under the Apache 2.0 license."
 disqusShortname = "marcusramberg"
@@ -17,7 +17,7 @@ name = "Marcus Ramberg"
 
 [params]
   DateForm = "2006-01-02"
-  Description = "Making (?:things|code|mischief|mistakes)."
+  Description = "Making (things|code|mischief|mistakes)."
   Author = "Marcus Ramberg"
 
   email = "marcus@means.no"
