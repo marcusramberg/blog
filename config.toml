@@ -34,9 +34,6 @@ name = "Marcus Ramberg"
 [[params.social]]
   title = "github"
   url = "https://github.com/marcusramberg"
-[[params.social]]
-  title = "facebook"
-  url = "https://www.facebook.com/marcusramberg"
 
 [[menu.main]]
   name = "Home"
