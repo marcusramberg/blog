@@ -29,8 +29,8 @@ name = "Marcus Ramberg"
   showReadTime = false
 
 [[params.social]]
-  title = "twitter"
-  url = "https://twitter.com/marcusramberg"
+  title = "mastodown"
+  url = "https://oslo.town/marcus"
 [[params.social]]
   title = "github"
   url = "https://github.com/marcusramberg"
