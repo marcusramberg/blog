@@ -1,10 +1,12 @@
-+++
-title = "Posting to Hugo from iOS"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-12T00:00:00+02:00
-tags = ["hugo"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2020-06-12T00:00:00+02:00"
+tags:
+- hugo
+title: Posting to Hugo from iOS
+---
 
 I like to take pictures, and some of the point for me of rebooting this blog was to have a place I control myself to publish things, rather than relying on Facebook or Instagram to own my data. However, since my trusty iPhone is my camera 99% of the time, that means I rely on having a simple way to post from the phone, otherwise it's just not going to happen.
 

@@ -1,10 +1,13 @@
-+++
-title = "Coturn for WebRTC NAT Traversal"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-13T00:00:00+02:00
-tags = ["perl", "convos"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2020-06-13T00:00:00+02:00"
+tags:
+- perl
+- convos
+title: Coturn for WebRTC NAT Traversal
+---
 
 This article will show you how to set up [Coturn](https://github.com/coturn/coturn). This is a service that allows hosts behind NAT to communicate peer to peer with webrtc. STUN is helping to negotiate port/ip and TURN will proxy the actual traffic if all else fails.
 

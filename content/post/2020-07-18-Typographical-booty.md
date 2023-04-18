@@ -1,11 +1,11 @@
 ---
 date: "2020-07-18T12:43:29+02:00"
-published: true
-title: Typographical booty
 externalUrl: https://imgur.com/r/gifs/tdkQPU3
+published: true
 tags:
-  - typography
-  - gifs
+- typography
+- gifs
+title: Typographical booty
 ---
 For once comic sans isn’t the worst. 
 

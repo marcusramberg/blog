@@ -1,11 +1,13 @@
-+++
-title = "Perl 7 Announced"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-24T00:00:00+02:00
-tags = ["perl"]
-draft = false
-externalUrl = "https://www.perl.com/article/announcing-perl-7/"
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+externalUrl: https://www.perl.com/article/announcing-perl-7/
+publishDate: "2020-06-24T00:00:00+02:00"
+tags:
+- perl
+title: Perl 7 Announced
+---
 
 Not going to lie, This Perl 7 announcement is the best news I've heard in a while. My biggest outstanding question is if the are going to be enabling signatures in this release. I really hope so.
 

@@ -3,9 +3,9 @@ date: "2015-01-06T00:00:00Z"
 link: http://www.itskeptic.org/content/there-no-such-thing-noops-it-awful-word
 published: true
 tags:
-  - ios
-  - ops
-  - devops
+- ios
+- ops
+- devops
 title: NoOps is an awful word
 ---
 

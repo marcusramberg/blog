@@ -1,12 +1,15 @@
-+++
-title = "Started a new Gaming video channel"
-author = ["Marcus Ramberg"]
-date = 2021-02-20T19:40:00+01:00
-publishDate = 2021-02-20T19:40:00+01:00
-tags = ["lbry", "video"]
-draft = false
-externalUrl = "https://open.lbry.com/@gaming.means.no:e/5min-humble-choice-02-21:8?r=3cvdSDPFnEF4PTDniNjReLdghFxjkhRJ"
-+++
+---
+author:
+- Marcus Ramberg
+date: "2021-02-20T19:40:00+01:00"
+draft: false
+externalUrl: https://open.lbry.com/@gaming.means.no:e/5min-humble-choice-02-21:8?r=3cvdSDPFnEF4PTDniNjReLdghFxjkhRJ
+publishDate: "2021-02-20T19:40:00+01:00"
+tags:
+- lbry
+- video
+title: Started a new Gaming video channel
+---
 
 First post shows first five minutes of each game in this months Humble Choice
 from Hubmle Bundle, running under Linux.

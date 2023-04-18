@@ -1,10 +1,10 @@
 ---
 date: "2014-10-05T00:00:00Z"
 published: true
-title: Building Ansible Modules with Perl and Mojolicious
 tags:
-  - perl
-  - ansible
+- perl
+- ansible
+title: Building Ansible Modules with Perl and Mojolicious
 ---
 
 While setting up [Output](http://theoutput.co/), we decided to automate all our

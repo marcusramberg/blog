@@ -1,10 +1,12 @@
-+++
-title = "Blog reboot"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-06T00:00:00+02:00
-tags = ["meta"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2020-06-06T00:00:00+02:00"
+tags:
+- meta
+title: Blog reboot
+---
 
 Blogging in general seems like it has taken a hit, and this blog is no exception. However, I would like to do my part to keep the [Indie-web](https://indieweb.org/) alive, and the first part of contributing is to actually write things, so I figure I might as well try to reboot this blog.
 

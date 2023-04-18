@@ -1,11 +1,15 @@
-+++
-title = "beorg - org mode on the go"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-08T00:00:00+02:00
-tags = ["orgmode", "ios", "emacs"]
-draft = false
-externalUrl = "https://beorgapp.com/"
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+externalUrl: https://beorgapp.com/
+publishDate: "2020-06-08T00:00:00+02:00"
+tags:
+- orgmode
+- ios
+- emacs
+title: beorg - org mode on the go
+---
 
 One of the big reasons I finally succumbed to the [Evil](https://github.com/emacs-evil/evil) side was the search for a comprehensive notes and todo system.
 

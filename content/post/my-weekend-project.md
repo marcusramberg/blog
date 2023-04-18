@@ -1,10 +1,11 @@
-+++
-title = "My weekend project"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-15T00:00:00+02:00
-draft = false
-externalUrl = "https://www.ana-white.com/woodworking-projects/2x4-outdoor-sofa"
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+externalUrl: https://www.ana-white.com/woodworking-projects/2x4-outdoor-sofa
+publishDate: "2020-06-15T00:00:00+02:00"
+title: My weekend project
+---
 
 Really wanted a nice outdoor sofa for our terrace, and this one looks great. So far I've managed to cut and sand all the wood and make the first frame. Hoping to complete it next weekend.
 

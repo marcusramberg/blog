@@ -1,10 +1,12 @@
-+++
-title = "Simply deploying to private GKE cluster from Cloud Build"
-author = ["Marcus Ramberg"]
-publishDate = 2022-03-31T00:00:00+02:00
-tags = ["devops"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2022-03-31T00:00:00+02:00"
+tags:
+- devops
+title: Simply deploying to private GKE cluster from Cloud Build
+---
 
 I recently came back to Google's Cloud Platform after some years on other cloud platforms, and as part of my work there I had the requirement to setup a secure GCP cluster for some workloads. Google engineers have provided a nice blueprint for this using a [IAP Proxy Bastion host for external access](<https://registry.terraform.io/modules/terraform-google-modules/kubernetes-engine/google/latest/examples/safer_cluster_iap_bastion?tab=outputs>), which works well for safe access from developer machines and allows you to limit Identity Aware Proxy access by GCP Security Groups.
 

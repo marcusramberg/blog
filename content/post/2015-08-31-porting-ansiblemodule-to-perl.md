@@ -1,10 +1,10 @@
 ---
 date: "2015-08-31T00:00:00Z"
 published: true
-title: Porting AnsibleModule to Perl.
 tags:
-  - perl
-  - ansible
+- perl
+- ansible
+title: Porting AnsibleModule to Perl.
 ---
 
     “All animals are equal, but some animals are more equal than others.”

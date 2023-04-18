@@ -3,10 +3,10 @@ date: "2015-01-15T00:00:00Z"
 link: http://substack.net/offline_decentralized_single_sign_on_in_the_browser
 published: true
 tags:
-  - browser
-  - cryptography
-  - authentication
-  - http
+- browser
+- cryptography
+- authentication
+- http
 title: offline decentralized single sign-on in the browser
 ---
 

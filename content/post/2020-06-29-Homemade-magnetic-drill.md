@@ -1,11 +1,11 @@
 ---
 date: "2020-06-29T23:48:01+02:00"
-published: true
-title: Homemade magnetic drill
 externalUrl: https://www.youtube.com/watch?v=PodhyGDKBBg&feature=share
+published: true
 tags:
-  - diy
-  - video
+- diy
+- video
+title: Homemade magnetic drill
 ---
 {{<youtube PodhyGDKBBg>}}
 

@@ -3,9 +3,9 @@ date: "2014-05-15T00:00:00Z"
 link: https://gist.github.com/jlecour/9830941
 published: true
 tags:
-  - ops
-  - monitoring
-  - slack
+- ops
+- monitoring
+- slack
 title: Monit notifications in slack
 ---
 

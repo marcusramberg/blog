@@ -1,10 +1,10 @@
 ---
 date: "2015-10-31T00:00:00Z"
 published: true
-title: Lessons from building a 270 racing quad
 tags:
-  - rc
-  - maker
+- rc
+- maker
+title: Lessons from building a 270 racing quad
 ---
 
 ![quad in the grass](/images/drone_in_the_grass.jpg)

@@ -1,10 +1,13 @@
-+++
-title = "Magit Forge on macOS"
-author = ["Marcus Ramberg"]
-publishDate = 2020-08-01T00:00:00+02:00
-tags = ["emacs", "github"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2020-08-01T00:00:00+02:00"
+tags:
+- emacs
+- github
+title: Magit Forge on macOS
+---
 
 I've tried many editor git integrations over the years, in Vim, VS Code, IntelliJ, Sublime, as well as various git guis. However I've never found something nearly as powerful and efficient day to day as working on the command line.
 

@@ -1,11 +1,14 @@
-+++
-title = "How I'm running Home Assistant in docker on NixOS"
-author = ["Marcus Ramberg"]
-date = 2020-07-19T20:54:00+02:00
-publishDate = 2020-07-19T00:00:00+02:00
-tags = ["homeautomation", "nix"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+date: "2020-07-19T20:54:00+02:00"
+draft: false
+publishDate: "2020-07-19T00:00:00+02:00"
+tags:
+- homeautomation
+- nix
+title: How I'm running Home Assistant in docker on NixOS
+---
 
 For the last few years I've been into home automation, and since I buy random stuff from different vendors and with various protocols, I use [Home Assistant](https://home-assistant.io/) to tie it all together. My main home server is a NixOS box, but for a long while I was running home assistant on my old Arch mac mini, because it was such a chore to handle dependencies with the NixOS home assistant service.
 

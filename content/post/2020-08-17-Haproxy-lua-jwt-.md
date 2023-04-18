@@ -1,12 +1,12 @@
 ---
 date: "2020-08-17T23:55:02+02:00"
-published: true
-title: Haproxy-lua-jwt 
 externalUrl: https://github.com/haproxytech/haproxy-lua-jwt
+published: true
 tags:
-  - devops
-  - http
-  - lua
+- devops
+- http
+- lua
+title: Haproxy-lua-jwt
 ---
 JWT Validation implementation for HAProxy Lua host
 

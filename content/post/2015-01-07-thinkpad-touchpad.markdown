@@ -3,9 +3,9 @@ date: "2015-01-07T00:00:00Z"
 link: http://www.thinkwiki.org/wiki/Buttonless_Touchpad
 published: true
 tags:
-  - from_ios
-  - Linux
-  - Thinkpad
+- from_ios
+- Linux
+- Thinkpad
 title: Fixing the Thinkpad Buttonless Touchpad
 ---
 

@@ -1,10 +1,14 @@
-+++
-title = "Weekend Project: Z-wave controlled Solenoid valve for watering"
-author = ["Marcus Ramberg"]
-publishDate = 2020-06-21T00:00:00+02:00
-tags = ["homeautomation", "diy", "garden"]
-draft = false
-+++
+---
+author:
+- Marcus Ramberg
+draft: false
+publishDate: "2020-06-21T00:00:00+02:00"
+tags:
+- homeautomation
+- diy
+- garden
+title: 'Weekend Project: Z-wave controlled Solenoid valve for watering'
+---
 
 Recently, I've set up a manual micro-drip system for our green house and flowers. I've been meaning to do something to automate watering schedules for our the micro drip system and our lawn and even ordered a solenoid valve from the internets a while back. It arrived a couple of weeks ago, and with a rainy sunday, I was finally ready to tackle this project.
 

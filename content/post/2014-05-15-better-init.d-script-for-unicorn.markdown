@@ -2,9 +2,9 @@
 date: "2014-05-15T00:00:00Z"
 published: true
 tags:
-  - unicorn
-  - ruby
-  - sysadmin
+- unicorn
+- ruby
+- sysadmin
 title: Improved init.d script for unicorn
 ---
 

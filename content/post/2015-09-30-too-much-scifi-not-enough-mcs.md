@@ -2,9 +2,9 @@
 date: "2015-09-30T00:00:00Z"
 published: true
 tags:
-  - books
-  - scifi
-  - desperation
+- books
+- scifi
+- desperation
 title: Too much scifi not enough MCs
 ---
 

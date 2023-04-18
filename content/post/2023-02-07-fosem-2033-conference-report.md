@@ -1,11 +1,11 @@
 ---
 date: "2023-02-06T14:54:34+02:00"
 published: true
-title: Conference report FosDem 2023
 tags:
-  - post
-  - fosdem
-  - conference
+- post
+- fosdem
+- conference
+title: Conference report FosDem 2023
 ---
 # Conference report FosDem 2023
 
