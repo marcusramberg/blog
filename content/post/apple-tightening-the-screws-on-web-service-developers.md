@@ -9,7 +9,7 @@ tags:
 - apple
 title: Apple tightening the screws on web service developers
 ---
-{{<tweet 1272968382329942017>}}
+{{<tweet dhh 1272968382329942017>}}
 
 Apparently the rule is now that you cannot have any app related to a paid web service, unless you allow the user to subscribe through the App Store, and give Apple 30%. No matter if you provide links to your site or allow signing up in the app.
 

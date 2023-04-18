@@ -12,4 +12,4 @@ title: httpstat - great curl visualization
 ---
 
 Great little tool for seeing http timing stats.
-{{<tweet 1293380686808662016>}}
+{{<tweet igrigorik 1293380686808662016>}}
