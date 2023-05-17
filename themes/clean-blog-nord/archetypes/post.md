@@ -1,17 +1,11 @@
 +++
+title = "{{ replace .Name "-" " " | title }}"
 tags = [
-    "go",
-    "golang",
-    "templates",
-    "themes",
-    "development",
+   "post"
 ]
-categories = [
-    "Development",
-    "golang",
-]
-image = "/img/about-bg.jpg" #optional image - "/img/about-bg.jpg" is the default
-description = ""
-draft = true
+categories = []
+
+draft = false
 comments = true
+published = true
 +++
