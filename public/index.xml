@@ -6,8 +6,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://marcus.means.no/" rel="self" type="application/rss+xml" />
+    
+      
+      <item>
+        <title>Disabling nvim autoformat on a per-repo basis</title>
+        <link>https://marcus.means.no/post/2023-05-17-selective-autoformat-lazyvim/</link>
+        <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+        <author> </author>
+        <guid>https://marcus.means.no/post/2023-05-17-selective-autoformat-lazyvim/</guid>
+        <description>&lt;p&gt;I&amp;rsquo;m a huge fan of Folke&amp;rsquo;s Neovim distribution &lt;a href=&#34;https://www.lazyvim.org/&#34;&gt;lazyvim&lt;/a&gt;. It has replaced my own custom lua config, and
+reduced the time I&amp;rsquo;m spending tweaking my config by a lot.&lt;/p&gt;
+&lt;p&gt;One nice thing is it enables format on save by default,
+which is actually what I want for almost all things. However in some repos I
+contribute to they frown upon this behavior, so I have to constantly remember
+to turn it off with &lt;code&gt;&amp;lt;space&amp;gt;uf&lt;/code&gt; or suffer review comments about excessive
+white-space fixes :)&lt;/p&gt;
+&lt;p&gt;That kinda works, but I sometimes forget, and have to undo after save and turn
+it off. However now I have &lt;a href=&#34;https://github.com/marcusramberg/nix-config/commit/ca25bedf9a2d5516fd8131f1c99467538f7a7ffa&#34;&gt;a better
+solution&lt;/a&gt;:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-lua&#34; data-lang=&#34;lua&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;vim.api.nvim_create_autocmd({ &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;BufEnter&amp;#34;&lt;/span&gt; }, {
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  attern &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; vim.fn.expand(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;~&amp;#34;&lt;/span&gt;) &lt;span style=&#34;color:#f92672&#34;&gt;..&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;/Source/{nimdow,nixpkgs}/*&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  callback &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;function&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    vim.b.autoformat &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  &lt;span style=&#34;color:#66d9ef&#34;&gt;end&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;})
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Add this to &lt;code&gt;autocmd.lua&lt;/code&gt; and whenever you enter a buffer inside &lt;code&gt;nimdow&lt;/code&gt; or &lt;code&gt;nixpkgs&lt;/code&gt;
+it automatically turns off autoformat. Note how I&amp;rsquo;m expanding ~ in this scenario
+rather than putting in &lt;code&gt;/home/marcus&lt;/code&gt; to ensure it works on MacOs as well as Linux.&lt;/p&gt;
+</description>
+      </item>
+      
     
       
       <item>
@@ -565,21 +595,6 @@ Very interesting method to increase the strength of 3D printed parts. The salt e
 &lt;/figure&gt;
 
 Been on a 3d model painting kick lately. This one is a work in progress but I think it&amp;rsquo;s starting to shape up. love how you can layer paint for continous improvement&lt;/p&gt;
-</description>
-      </item>
-      
-    
-      
-      <item>
-        <title>Owl</title>
-        <link>https://marcus.means.no/post/2020-09-05-owl/</link>
-        <pubDate>Sat, 05 Sep 2020 23:23:37 +0200</pubDate>
-        <author> </author>
-        <guid>https://marcus.means.no/post/2020-09-05-owl/</guid>
-        <description>&lt;figure&gt;&lt;img src=&#34;https://marcus.means.no/images/2020-09-05-Owl.jpg&#34;
-         alt=&#34;Owl&#34; width=&#34;1280&#34;/&gt;
-&lt;/figure&gt;
-
 </description>
       </item>
       

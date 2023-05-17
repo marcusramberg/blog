@@ -7,7 +7,34 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Wed, 22 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marcus.means.no/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 17 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://marcus.means.no/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>autoformat</title>
+      <link>https://marcus.means.no/tags/autoformat/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus.means.no/tags/autoformat/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lazyvim</title>
+      <link>https://marcus.means.no/tags/lazyvim/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus.means.no/tags/lazyvim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nvim</title>
+      <link>https://marcus.means.no/tags/nvim/</link>
+      <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://marcus.means.no/tags/nvim/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>blog</title>
       <link>https://marcus.means.no/tags/blog/</link>
@@ -158,33 +185,6 @@
       <pubDate>Mon, 04 Jan 2021 23:38:00 +0100</pubDate>
       
       <guid>https://marcus.means.no/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>convos</title>
-      <link>https://marcus.means.no/tags/convos/</link>
-      <pubDate>Sat, 19 Dec 2020 19:49:00 +0100</pubDate>
-      
-      <guid>https://marcus.means.no/tags/convos/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>irc</title>
-      <link>https://marcus.means.no/tags/irc/</link>
-      <pubDate>Sat, 19 Dec 2020 19:49:00 +0100</pubDate>
-      
-      <guid>https://marcus.means.no/tags/irc/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>youtube</title>
-      <link>https://marcus.means.no/tags/youtube/</link>
-      <pubDate>Fri, 18 Dec 2020 00:00:00 +0100</pubDate>
-      
-      <guid>https://marcus.means.no/tags/youtube/</guid>
       <description></description>
     </item>
     

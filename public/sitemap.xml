@@ -2,6 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://marcus.means.no/tags/autoformat/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/categories/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/post/2023-05-17-selective-autoformat-lazyvim/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/tags/lazyvim/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/categories/neovim/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/tags/nvim/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/post/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
+    <loc>https://marcus.means.no/tags/</loc>
+    <lastmod>2023-05-17T21:06:20+02:00</lastmod>
+  </url><url>
     <loc>https://marcus.means.no/tags/blog/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
   </url><url>
@@ -11,17 +38,8 @@
     <loc>https://marcus.means.no/post/2023-03-20-comments/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
   </url><url>
-    <loc>https://marcus.means.no/</loc>
-    <lastmod>2023-04-18T23:29:45+02:00</lastmod>
-  </url><url>
     <loc>https://marcus.means.no/tags/meta/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
-  </url><url>
-    <loc>https://marcus.means.no/post/</loc>
-    <lastmod>2023-04-18T23:29:45+02:00</lastmod>
-  </url><url>
-    <loc>https://marcus.means.no/tags/</loc>
-    <lastmod>2023-04-18T23:29:45+02:00</lastmod>
   </url><url>
     <loc>https://marcus.means.no/tags/photo/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
@@ -1741,8 +1759,6 @@
   </url><url>
     <loc>https://marcus.means.no/post/2009-02-02-fisherman-at-huk/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
-  </url><url>
-    <loc>https://marcus.means.no/categories/</loc>
   </url><url>
     <loc>https://marcus.means.no/post/routinehub/</loc>
     <lastmod>2023-04-18T23:18:48+02:00</lastmod>
