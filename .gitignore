@@ -3,3 +3,9 @@
 *.log
 tmp/
 public
+
+# Devenv
+.devenv*
+devenv.local.nix
+
+.direnv
