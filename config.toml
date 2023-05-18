@@ -28,7 +28,7 @@ name = "Marcus Ramberg"
   showReadTime = false
 
 [[params.social]]
-  title = "mastodown"
+  title = "mastodon"
   url = "https://hachyderm.io/@marcus"
 [[params.social]]
   title = "github"

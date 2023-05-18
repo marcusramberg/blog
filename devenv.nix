@@ -1,9 +1,10 @@
-{ pkgs, ... }:
+{ pkgs, lib, ... }:
 
 {
   env.LANG = "en_US.UTF-8";
 
   packages = with pkgs; [
+    hunspell
     hunspellDicts.en_US
     hugo
   ];
@@ -26,6 +27,7 @@
   pre-commit.hooks = {
     actionlint.enable = true;
     hunspell.enable = true;
+    hunspell.files = lib.mkForce "\\.md$";
     markdownlint.enable = true;
   };
 }
