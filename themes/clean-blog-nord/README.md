@@ -1,6 +1,9 @@
+# Nord Hugo Theme
+
 ## About
 
-Hugo theme based on [Start Bootstrap Clean Blog](https://github.com/derrickshowers/hugo-clean-blog.git). Used as a starter, but may diverge to separate (unrelated) theme in the near future.
+Hugo theme based on [Start Bootstrap Clean Blog](https://github.com/derrickshowers/hugo-clean-blog.git). Used as a
+starter, but may diverge to separate (unrelated) theme in the near future.
 
 ## Config
 
@@ -58,10 +61,13 @@ disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus com
   weight = -180
 ```
 
-The footer contains link icons to any enabled social media sites, such as Facebook and/or LinkedIn. There is also an email icon, by removing the `email` parameter.
+The footer contains link icons to any enabled social media sites, such as Facebook and/or LinkedIn. There is also and
+email icon, by removing the `email` parameter.
 
 ## Customization
 
-#### Custom CSS/JS
+### Custom CSS/JS
 
-As you see in the example config above, custom CSS and JS files can be added using the `customCSS` and `customJS` keys. Once in your *config.toml*, make sure to also include the files in your static directory (at the exact path you chose in the config, so in a *css* or *js* directory based on the example).
+As you see in the example config above, custom CSS and JS files can be added using the `customCSS` and `customJS` keys.
+Once in your *config.toml*, make sure to also include the files in your static directory (at the exact path you chose
+in the config, so in a *css* or *js* directory based on the example).

@@ -7,6 +7,7 @@
     hunspell
     hunspellDicts.en_US
     hugo
+    nodePackages.markdownlint-cli
   ];
 
   scripts.mkpost.exec = ''
