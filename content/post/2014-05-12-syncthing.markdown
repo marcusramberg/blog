@@ -8,4 +8,3 @@ title: Syncthing
 ---
 Syncthing is an Open Source Dropbox/btsync replacement. Been looking for
 something like this for a long time.
-

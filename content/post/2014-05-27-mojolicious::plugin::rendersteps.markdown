@@ -18,7 +18,7 @@ I also wrote a simple plugin-helper, which I think greatly simplify working
 with async controllers in Mojolicious. This what you have to do to setup async
 actions in mojolicious at the moment:
 
-{{< highlight perl >}}
+``` perl
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 
@@ -49,11 +49,11 @@ $self->ua->get($url->clone->query({q => 'mojo'}) => $delay->begin);
 
 )->catch(sub { shift->render_exception(shift) });
 \$delay->wait unless Mojo::IOLoop->is_running;
-{{< / highlight >}}
+```
 
 With the help of my new helper, that can be turned into this:
 
-{{< highlight perl >}}
+``` perl
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 
@@ -82,7 +82,7 @@ mango => \$mango->res->json('/hits/hits/0/\_source/release')
 }
 );
 };
-{{< / highlight >}}
+```
 
 PS. We are looking for someone to host Mojoconf 2015, and we've donated 2000
 EUR to get the next host kickstarted. Contact Oslo.pm if you're interested.

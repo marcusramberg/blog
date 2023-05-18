@@ -8,5 +8,5 @@ title: Pair programming
 ---
 {{<tweet jbrancha 1300541335951339521>}}
 
-To me this has always seemed intuitively right. Unfortunate that so many developers seem hesitant to participate in pair programming. 
-
+To me this has always seemed intuitively right. Unfortunate that so many developers seem hesitant to participate in
+pair programming.

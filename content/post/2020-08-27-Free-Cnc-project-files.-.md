@@ -6,5 +6,4 @@ tags:
 - link
 title: Free Cnc project files.
 ---
-Some nice cnc projects, should give these a try. 
-
+Some nice cnc projects, should give these a try.

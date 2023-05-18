@@ -9,6 +9,7 @@ tags:
 title: Visual Fill Column Mode
 ---
 
-When writing text content, soft wrap is preferable to breaking lines. However, with emacs soft wrap defaults to the line of your window, which could be quite long. This ELPA module allows you to configure the line length to your preference.
+When writing text content, soft wrap is preferable to breaking lines. However, with emacs soft wrap defaults to the line
+of your window, which could be quite long. This ELPA module allows you to configure the line length to your preference.
 
 [\*](https://github.com/joostkremers/visual-fill-column)

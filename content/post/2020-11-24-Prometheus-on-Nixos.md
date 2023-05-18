@@ -9,4 +9,3 @@ tags:
 title: Prometheus on Nixos
 ---
 Great guide to setting up monitoring on your nixos install
-

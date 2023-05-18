@@ -11,4 +11,5 @@ tags:
 title: Integrating EKS service accounts with AWS IAM
 ---
 
-Been working on setting up a new EKS cluster for work lately, this post shows how to tie together IAM and EKS in a nice fashion using Terraform.
+Been working on setting up a new EKS cluster for work lately, this post shows how to tie together IAM and EKS in a
+nice fashion using Terraform.

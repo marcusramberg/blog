@@ -7,8 +7,6 @@ tags:
 - conference
 title: Conference report FosDem 2023
 ---
-# Conference report FosDem 2023
-
 I was really happy to be back in Brussels finally, after some cancelled years due to Covid.
 The official beer event at Delirium was still cancelled, but a bunch of us still
 gathered there on Friday afternoon. Was great to see old friends from the Open Source
@@ -174,7 +172,7 @@ over just using yants. Still a cool talk :)
 ### Devenv.sh
 
 A talk by the devenv author, who's also behind cachix.org and nix.dev - Was pretty
-nice to see that he's still serious about devenv, and the talk goes through some basics 
+nice to see that he's still serious about devenv, and the talk goes through some basics
 of setting up a devenv for development and ci. Devenv by now supports 36 different programming
 languages.
 

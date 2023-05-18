@@ -14,4 +14,5 @@ title: Consistent Technical Documents Using Emacs and Org Mode
 
 My favorite soundbite:
 
-> Editing in Emacs is so much nicer than using the Confluence Editor. Punching yourself in the face is nicer than using the confluence editor, but I digress.
+> Editing in Emacs is so much nicer than using the Confluence Editor. Punching yourself in the face is nicer than
+> using the confluence editor, but I digress.

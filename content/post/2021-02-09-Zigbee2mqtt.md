@@ -10,4 +10,5 @@ title: Zigbee2mqtt
 ---
 
 {{<figure alt="Zigbee2mqtt" src="/images/2021-02-09-Zigbee2mqtt.jpg" width="1280">}}
-Finished migrating all my devices from deconz. Much nicer OTA,binding and entity management. Next up zwave. mqtt all the things!
+Finished migrating all my devices from deconz. Much nicer OTA,binding and entity management. Next up zwave. mqtt all
+the things!

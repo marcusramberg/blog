@@ -7,5 +7,5 @@ tags:
 - russian
 title: Goodbye 182 day streak
 ---
-Today I’m ending my love affair with duolingo, have just signed up for a year of memrise. Let’s see if I can finally git gud at Russian :)
-
+Today I’m ending my love affair with duolingo, have just signed up for a year of memrise. Let’s see if I can finally
+git gud at Russian :)

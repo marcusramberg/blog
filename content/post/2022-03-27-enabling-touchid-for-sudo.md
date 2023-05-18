@@ -8,4 +8,5 @@ publishDate: "2022-03-27T00:00:00+01:00"
 title: Enabling touchid for sudo
 ---
 
-Somehow I missed that this is supported, but it's awesome! Also works with Apple Watch unlock in case your mac/keyboard doesn't have a touchid sensor :)
+Somehow I missed that this is supported, but it's awesome! Also works with Apple Watch unlock in case your
+mac/keyboard doesn't have a touchid sensor :)

@@ -7,5 +7,4 @@ tags:
 - terraform
 title: Terraform input validation
 ---
-Great intro to this recent feature by Wilson. 
-
+Great intro to this recent feature by Wilson.

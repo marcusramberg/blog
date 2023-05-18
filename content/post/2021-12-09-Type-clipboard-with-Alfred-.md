@@ -6,5 +6,5 @@ tags:
 - link
 title: Type clipboard with Alfred
 ---
-Ever in a situation where clipboard isn't operational, say inside two layers of vdi for instance? This Alfred workflow can help!
-
+Ever in a situation where clipboard isn't operational, say inside two layers of vdi for instance? This Alfred workflow
+can help!

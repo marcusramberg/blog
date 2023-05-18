@@ -38,17 +38,18 @@ Installing dokku and drone is simple enough, and well documented in their
 respective projects, so I won't cover that here. However, here is the
 .drone.yml config we use in the Output web backend repository:
 
-{{< highlight yaml >}}
-image: bradrydzewski/ruby:2.1.1 
-cache: 
-  - /tmp/bundler
+```yaml
+image: bradrydzewski/ruby:2.1.1
+cache:
+
+- /tmp/bundler
 env:
-  - DATABASE_URL=postgres://postgres@localhost/input_test 
-  - RACK_ENV=test
-  - DISPLAY=:10
+- DATABASE_URL=postgres://postgres@localhost/input_test
+- RACK_ENV=test
+- DISPLAY=:10
 services:
-  - postgres
-  - nordaaker/beanstalkd
+- postgres
+- nordaaker/beanstalkd
 notify:
   slack:
     team: nordaaker
@@ -59,20 +60,20 @@ notify:
     on_success: true
     on_failure: true
 script:
-  - mkdir -p /tmp/bundler
-  - sudo chown ubuntu:ubuntu /tmp/bundler
-  - bundle install --path=/tmp/bundler
-  - bundle
-  - createdb input_test -E UTF8 -T template0 -U postgres -h localhost
-  - bundle exec rake db:
-  - Xvfb :10 -ac &
-  - firefox &
-  - bundle exec rake test
+- mkdir -p /tmp/bundler
+- sudo chown ubuntu:ubuntu /tmp/bundler
+- bundle install --path=/tmp/bundler
+- bundle
+- createdb input_test -E UTF8 -T template0 -U postgres -h localhost
+- bundle exec rake db:
+- Xvfb :10 -ac &
+- firefox &
+- bundle exec rake test
 deploy:
   bash:
-    script: 
-      - 'perl deploy.pl'
-{{< / highlight >}}
+    script:
+  - 'perl deploy.pl'
+```
 
 Let's go through it quickly; The backend is built on Padrino, and we run it
 using the most recent ruby image. The cache setting is to avoid having to
@@ -81,7 +82,7 @@ Database connection as well as setting padrino in test mode, and the X11
 display for integration tests.
 
 Then we configure two services to be used; the built in postgres service, and
-the 
+the
 beanstalkd service we built. We also set up notifications for every event to the excellent
 [Slack](http://slack.com).
 
@@ -92,18 +93,18 @@ virtual X11 server. Finally we run the actual tests.
 If they succeed, the deploy script is run. Drone supports many deploy scenarios
 out of the box, but to get what I wanted, I wrote this little Perl script:
 
-{{< highlight perl >}}
-#!/usr/bin/env perl
+```perl
+# !/usr/bin/env perl
 system('git config --global user.name $(git --no-pager log -1 --pretty=format:\'%an\')') == 0 || die 'Could not set name';
 system('git config --global user.email $(git --no-pager log -1 --pretty=format:\'%ae\')') == 0|| die 'Could not set email';
 my $branch=$ENV{DRONE_BRANCH};
 $branch=~s/\W//g;
 die "No branch" unless $branch;
 print 'Deploying to dokku@stage:'.  ( $branch eq 'master' ? 'input' : 'input-'.$branch ) ."\n";
-system('git remote add deploy dokku@stage:'. 
+system('git remote add deploy dokku@stage:'.
   ( $branch eq 'master' ? 'input' : 'input-'.$branch )) == 0 || die 'Could not add target';
 system('git push deploy +'.$ENV{DRONE_BRANCH}.':master') == 0 or die 'Unable to push to remote';
-{{< / highlight >}}
+```
 
 It sets up the git environment, normalizes the current branch name,
 then pushes to dokku, which either creates or updates an app based on the repo

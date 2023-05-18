@@ -9,6 +9,7 @@ tags:
 title: Emacs lsp-mode 7.0 released
 ---
 
-LSP support in Emacs is first class, and this release improves it even further. The ability to have LSP support inside org-mode code blocks blow my mind.
+LSP support in Emacs is first class, and this release improves it even further. The ability to have LSP support inside
+org-mode code blocks blow my mind.
 
-{{< figure src="https://raw.githubusercontent.com/emacs-lsp/lsp-mode/master/examples/org-mode.gif" >}}
+{{< figure src="<https://raw.githubusercontent.com/emacs-lsp/lsp-mode/master/examples/org-mode.gif>" >}}

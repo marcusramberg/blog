@@ -9,4 +9,3 @@ tags:
 title: Haproxy-lua-jwt
 ---
 JWT Validation implementation for HAProxy Lua host
-

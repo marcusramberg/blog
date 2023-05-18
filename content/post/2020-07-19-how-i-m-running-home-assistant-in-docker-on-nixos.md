@@ -10,9 +10,14 @@ tags:
 title: How I'm running Home Assistant in docker on NixOS
 ---
 
-For the last few years I've been into home automation, and since I buy random stuff from different vendors and with various protocols, I use [Home Assistant](https://home-assistant.io/) to tie it all together. My main home server is a NixOS box, but for a long while I was running home assistant on my old Arch mac mini, because it was such a chore to handle dependencies with the NixOS home assistant service.
+For the last few years I've been into home automation, and since I buy random stuff from different vendors and with
+various protocols, I use [Home Assistant](https://home-assistant.io/) to tie it all together. My main home server is a
+NixOS box, but for a long while I was running home assistant on my old Arch mac mini, because it was such a chore to
+handle dependencies with the NixOS home assistant service.
 
-Typically home assistant just installs what you need on the fly, but with the nixos version you need to declare everything manually. However, this winter I migrated over to running NixOS in a docker container declaratively. Recent nixos has gained support for running these containers in systemd.
+Typically home assistant just installs what you need on the fly, but with the nixos version you need to declare
+everything manually. However, this winter I migrated over to running NixOS in a docker container declaratively. Recent
+nixos has gained support for running these containers in systemd.
 
 Setting this up is really easy
 
@@ -25,7 +30,8 @@ Setting this up is really easy
     };
 ```
 
-Here I'm using the official image, and also demonstrating how to set extra docker options, like host networking or forwarding a usb device.
+Here I'm using the official image, and also demonstrating how to set extra docker options, like host networking or
+forwarding a usb device.
 
 Nixos also provides other commonly used services natively as nix services.
 

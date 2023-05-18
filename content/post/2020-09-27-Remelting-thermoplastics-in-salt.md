@@ -8,5 +8,5 @@ tags:
 title: Remelting thermoplastics in salt
 ---
 {{<youtube nRLJ4ylGTFc>}}
-Very interesting method to increase the strength of 3D printed parts. The salt ensures the object retains its shape and can be washed away after the baking. 
-
+Very interesting method to increase the strength of 3D printed parts. The salt ensures the object retains its shape
+and can be washed away after the baking.

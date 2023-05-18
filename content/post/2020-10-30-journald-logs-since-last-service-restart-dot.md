@@ -11,10 +11,11 @@ tags:
 title: journald logs since last service restart.
 ---
 
-While debugging services I often want to see the systemd service log since last restart. Unfortunately doing this isn't obvious, but there is a way.
+While debugging services I often want to see the systemd service log since last restart. Unfortunately doing this isn't
+obvious, but there is a way.
 
 ```bash
-$ journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value -p InvocationID docker-hass)
+journalctl _SYSTEMD_INVOCATION_ID=$(systemctl show --value -p InvocationID docker-hass)
 ```
 
 where docker-hass is your service. I should probably add an alias for this to my dotfiles.

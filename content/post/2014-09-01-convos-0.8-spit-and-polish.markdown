@@ -5,7 +5,7 @@ title: Convos 0.8 - Spit and polish
 ---
 
 This fall we released Convos 0.8, with the latest update 0.83 hitting CPAN today.
-As we're inching closer to 1.0, we've been focusing on polishing the user 
+As we're inching closer to 1.0, we've been focusing on polishing the user
 interface, fixing bugs and other rough patches in the user experience.
 One of the most important improvements in this round is how you switch
 between conversations.
@@ -29,7 +29,7 @@ more smoothly both on the desktop and mobile.
 
 Another new feature in the 0.8 series that I really enjoy is the recent activity line.
 We now track whenever a channel goes out of focus, either because you switch
-to another tab, or to another channel. When you return, there's a line showing you 
+to another tab, or to another channel. When you return, there's a line showing you
 what's new since you switching away.
 
 ![screenshot of activity line](https://www.evernote.com/shard/s22/sh/6ecc7f7d-3784-4f17-b2ed-398ac12ba558/10a5b6575f6438be4abcc9c66c01adae/deep/0/Nordaaker-demo----mojo-on-perlorg---oh-hai!.png)
@@ -47,10 +47,9 @@ performance. We've also added some more irc commands. You can now /kick people,
 and /names will show you who's op and voiced in the current channel at any time.
 
 There's alot of other bugfixes and improvements as well, if you're interested in learning more you
-can check out the [full changelog](https://github.com/Nordaaker/convos/blob/master/CHANGELOG.md), 
-[try our demo](http://demo.convos.by/) or follow our [Installation instructions](https://github.com/Nordaaker/convos/#installation) to run your own.
+can check out the [full changelog](https://github.com/Nordaaker/convos/blob/master/CHANGELOG.md),
+[try our demo](http://demo.convos.by/) or follow our [Installation
+instructions](https://github.com/Nordaaker/convos/#installation) to run your own.
 
 Our main focus for the next release is cleaning up the Connection Manager, and there's already
-solid progress on this work. I'll leave you with this [sneak peak of the new channel join dialog](http://home.thorsen.pm/private/raw/notverysecret/convos/channel-list-2014-08-31-15-11-41.ogv). 
-
-
+solid progress on this work. I'll leave you with this [sneak peak of the new channel join dialog](http://home.thorsen.pm/private/raw/notverysecret/convos/channel-list-2014-08-31-15-11-41.ogv).

@@ -7,5 +7,4 @@ tags:
 - rust
 title: Modern rust alternatives for Unix classics
 ---
-I use several of these 
-
+I use several of these

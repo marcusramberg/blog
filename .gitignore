@@ -11,3 +11,5 @@ devenv.local.nix
 .direnv
 .pre-commit-config.yaml
 public/
+.hugo_build.lock
+.obsidian

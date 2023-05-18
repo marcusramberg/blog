@@ -23,14 +23,14 @@ write your plugins in whatever language you like, so I decided to glue the two
 together. This turned out to be quite easy. First you need to tell ansible you
 can handle json:
 
-```
+```perl
 #!/usr/bin/env perl
 # WANT_JSON
 ```
 
 Then we get the module argument file from the args, and parse the JSON:
 
-```
+```perl
 use Mojo::JSON;
 use Mojo::Util qw/slurp/;
 
@@ -41,7 +41,7 @@ my $args = $json->decode(slurp($ARGV[0]));
 And then you just process those arguments and do your thing. Lets say you want
 to check for required arguments:
 
-```
+```perl
 for (qw/email api_key zone name/) {
   fail("$_ is a required argument") unless exists $args->{$_};
 }
@@ -49,7 +49,7 @@ for (qw/email api_key zone name/) {
 
 My fail method looks like this:
 
-```
+```perl
 sub fail {
   my $msg = shift;
   print $json->encode({failed => 1, message => $msg});
@@ -60,7 +60,7 @@ sub fail {
 The important thing here is to exit 1, the json response is icing on the cake.
 For success you could could do something like this:
 
-```
+```perl
 print $json->encode({changed => \$changed, record => $current->id});
 ```
 
@@ -70,7 +70,7 @@ will make the difference between OK and CHANGED output in your ansible run.
 Put your module in a library/ sub directory of your playbook folder, and you
 can just use it in your playbook like this:
 
-```
+```yaml
 local_action: cloudflare zone=theoutput.co name=sentry type=CNAME
 content=sentry.nordaaker.com service_mode=1 email={{cloudflare_user}}
 api_key={{cloudflare_api_key}}

@@ -8,4 +8,3 @@ tags:
 title: Best looking org-agenda
 ---
 I need to steal some of this
-

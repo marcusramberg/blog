@@ -7,6 +7,6 @@ tags:
 - gifs
 title: Typographical booty
 ---
-For once comic sans isn’t the worst. 
+For once comic sans isn’t the worst.
 
 {{<figure src="https://i.imgur.com/tdkQPU3.gif">}}

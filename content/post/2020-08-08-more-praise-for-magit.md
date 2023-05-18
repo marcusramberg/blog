@@ -10,4 +10,5 @@ tags:
 title: More praise for magit
 ---
 
-I know I've mentioned magit before here, but I think this post shows a lot of the power you get from magit, which now makes it preferable to me even over the CLI.
+I know I've mentioned magit before here, but I think this post shows a lot of the power you get from magit, which now
+makes it preferable to me even over the CLI.

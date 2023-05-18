@@ -6,5 +6,4 @@ tags:
 - link
 title: Nordify your wallpapers
 ---
-For a full Nord life. 
-
+For a full Nord life.
