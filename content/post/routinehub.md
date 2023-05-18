@@ -4,8 +4,9 @@ author:
 draft: false
 externalUrl: https://routinehub.co/
 tags:
-- ios
+- iOS
 title: RoutineHub
+date: 2020-06-16
 ---
 
-Looking for more shortcuts for your iOS device? RoutineHub seems to be the best collection out there.
+Looking for more shortcuts for your iOS device? `RoutineHub` seems to be the best collection out there.

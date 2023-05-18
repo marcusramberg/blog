@@ -2,7 +2,6 @@
 .idea
 *.log
 tmp/
-content/
 public
 
 # Devenv
