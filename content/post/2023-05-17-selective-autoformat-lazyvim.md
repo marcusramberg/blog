@@ -29,7 +29,7 @@ solution](https://github.com/marcusramberg/nix-config/commit/ca25bedf9a2d5516fd8
 
 ``` lua
 vim.api.nvim_create_autocmd({ "BufEnter" }, {
-  attern = vim.fn.expand("~") .. "/Source/{nimdow,nixpkgs}/*",
+  pattern = vim.fn.expand("~") .. "/Source/{nimdow,nixpkgs}/*",
   callback = function()
     vim.b.autoformat = false
   end,
