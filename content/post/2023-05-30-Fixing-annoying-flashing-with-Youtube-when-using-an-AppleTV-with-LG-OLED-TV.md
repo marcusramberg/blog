@@ -1,6 +1,6 @@
 +++
 title = "Fixing Annoying Flashing With YouTube When Using an AppleTV With LG OLED TV"
-date = "2023-05-30
+date = "2023-05-30"
 tags = [ "post" "fix" "AppleTV" ]
 categories = ["Fix"]
 
