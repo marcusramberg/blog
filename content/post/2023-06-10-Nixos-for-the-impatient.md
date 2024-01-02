@@ -6,5 +6,5 @@ externalUrl: https://borretti.me/article/nixos-for-the-impatient
 tags:
   - link
 ---
-Nice pragmatic intro to my favorite Linux distribution. 
 
+Nice pragmatic intro to my favorite Linux distribution.

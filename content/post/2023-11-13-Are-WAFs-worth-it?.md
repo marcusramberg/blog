@@ -6,5 +6,6 @@ externalUrl: https://www.macchaffee.com/blog/2023/wafs/
 tags:
   - link
 ---
-Interesting article which discourages the use of web application firewalls. I feel they have some pretty solid arguments. 
 
+Interesting article which discourages the use of web application firewalls. I feel they have some pretty solid
+arguments.

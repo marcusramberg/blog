@@ -6,5 +6,6 @@ externalUrl: https://mitchellh.com/writing/github-changesets
 tags:
   - link
 ---
-We have indeed worked around some or these problems, by automatically dismissing stale reviews, mostly having single commit PRs and so Ok, but I strongly agree this model would just be better. 
 
+We have indeed worked around some or these problems, by automatically dismissing stale reviews, mostly
+having single commit PRs and so on, but I strongly agree this model would just be better.
