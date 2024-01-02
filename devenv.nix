@@ -22,10 +22,10 @@
       FILE=static/images/$(date +%Y-%m-%d)-$1.png
       if [ -x "$(command -v pngpaste)" ]; then
         pngpaste $FILE
-        echo "<img src=\"/images/$(basename $FILE)\" />" | pbcopy
+        echo "<img src=\"/images/$(basename $FILE)\" width=700/>" | pbcopy
       else
         xclip -selection clipboard -t image/png -o > $FILE
-        echo "<img src=\"/images/$(basename $FILE)\" />" | xclip -selection clipboard
+        echo "<img src=\"/images/$(basename $FILE)\" width=700/>" | xclip -selection clipboard
       fi
     '';
 
