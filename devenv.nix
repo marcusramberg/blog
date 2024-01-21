@@ -16,7 +16,7 @@
       hugo new $POST
       nvim $POST
       git add $POST
-      git commit -am"Add $POST"
+      git commit -m"feat: Add $POST"
     '';
     pasteimg.exec = ''
       FILE=static/images/$(date +%Y-%m-%d)-$1.png
