@@ -46,7 +46,7 @@ messages on web socket connect, significantly improving stability and
 performance. We've also added some more irc commands. You can now /kick people,
 and /names will show you who's op and voiced in the current channel at any time.
 
-There's alot of other bugfixes and improvements as well, if you're interested in learning more you
+There's a lot of other bugfixes and improvements as well, if you're interested in learning more you
 can check out the [full changelog](https://github.com/Nordaaker/convos/blob/master/CHANGELOG.md),
 [try our demo](http://demo.convos.by/) or follow our [Installation
 instructions](https://github.com/Nordaaker/convos/#installation) to run your own.

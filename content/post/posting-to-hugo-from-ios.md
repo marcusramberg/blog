@@ -1,10 +1,10 @@
 ---
 author:
-- Marcus Ramberg
+  - Marcus Ramberg
 draft: false
 publishDate: "2020-06-12T00:00:00+02:00"
 tags:
-- hugo
+  - hugo
 title: Posting to Hugo from iOS
 ---
 
@@ -18,7 +18,7 @@ workflow, and was amazed by how easy and powerful it is. I was able to make a sh
 asks for a post title and then posts directly to my github blog repo. [This
 sunset](https://marcus.nordaaker.com/post/2020-06-11-oslo-sunset/) is an example of a post using this workflow :)
 
-If you want to borrow my workflow, it's avilable through icloud
+If you want to borrow my workflow, it's available through iCloud
 [here](https://www.icloud.com/shortcuts/99d972dc7de74d29aee41f1e089953c3) - I'll also go through it step by step to
 quickly explain how it work
 
@@ -34,7 +34,7 @@ quickly explain how it work
 {{<figure alt="Workflow Part 2" src="/images/ios-hugo-photos-2.jpg">}}
 
 - Then replace spaces in the url to create a slug,
-- Add the picture to static images in the blog photo with date formated as yyyy-mm-dd and our slug
+- Add the picture to static images in the blog photo with date formatted as yyyy-mm-dd and our slug
 
 {{<figure alt="Workflow Part 3" src="/images/ios-hugo-photos-3.jpg">}}
 
@@ -49,4 +49,4 @@ git, it's worth buying.
 ## The Future {#the-future}
 
 This workflow is enough for me to be able to do simple posts, but of course it could be improved. Things I'm
-considering are allowing custom tags, and getting metadata from exif.
+considering are allowing custom tags, and getting metadata from EXIF.

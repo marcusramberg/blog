@@ -1,7 +1,7 @@
 +++
 title = "First Experiences With Homely Alarm"
 date = "2023-11-04"
-tags = [ "post" ]
+tags = [ "post", "zigbee" ]
 categories = ["reviews"]
 
 comments = true

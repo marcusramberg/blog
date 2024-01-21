@@ -1,10 +1,10 @@
 ---
 author:
-- Marcus Ramberg
+  - Marcus Ramberg
 draft: false
 publishDate: "2020-06-06T00:00:00+02:00"
 tags:
-- meta
+  - meta
 title: Blog reboot
 ---
 
@@ -23,7 +23,7 @@ Here's how this looks as I'm writing this post:
 
 Also, since the color scheme of my life is [Nord](https://nordtheme.com/), this blog is now also Nord themed. I took
 the Hugo [base16](https://themes.gohugo.io/base16/) theme and applied nord colors instead. to export to the blog from
-doom, it's a simple localleader e H H. To setup GH Actions posting, I followed [this
+doom, it's a simple local-leader e H H. To setup GH Actions posting, I followed [this
 recipe](https://ruddra.com/posts/hugo-deploy-static-page-using-github-actions/).
 
 ## Future {#future}

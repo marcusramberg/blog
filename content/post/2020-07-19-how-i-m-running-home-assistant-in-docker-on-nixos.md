@@ -1,12 +1,12 @@
 ---
 author:
-- Marcus Ramberg
+  - Marcus Ramberg
 date: "2020-07-19T20:54:00+02:00"
 draft: false
 publishDate: "2020-07-19T00:00:00+02:00"
 tags:
-- homeautomation
-- nix
+  - home-automation
+  - nix
 title: How I'm running Home Assistant in docker on NixOS
 ---
 
@@ -40,7 +40,7 @@ Nixos also provides other commonly used services natively as nix services.
     services.mosquitto = {
       enable = true;
       host = "0.0.0.0";
-      users = { hass = {acl = [ "topic readwrite #" ]; password = "notmypassword"; }; };
+      users = { hass = {acl = [ "topic readwrite #" ]; password = "not-my-password"; }; };
       extraConf = "log_type debug";
     };
 ```

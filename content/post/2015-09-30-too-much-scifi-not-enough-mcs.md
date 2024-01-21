@@ -2,15 +2,15 @@
 date: "2015-09-30T00:00:00Z"
 published: true
 tags:
-- books
-- scifi
-- desperation
-title: Too much scifi not enough MCs
+  - books
+  - sci-fi
+  - desperation
+title: Too much sci-fi not enough MCs
 ---
 
 Once again, it's the end of the month, and I did not manage to keep my promise to myself, and write my blog posts
 earlier than last month. So, in order to not lose my bet with @jhthorsen, I will tell you about the last four books I
-finished. It just so happens they are all scifi, and they are all set in the near future, even if their themes are
+finished. It just so happens they are all sci-fi, and they are all set in the near future, even if their themes are
 quite different.
 
 ## Seveneves
@@ -43,7 +43,7 @@ with scientific tidbits that keep you interested throughout the book. Some of th
 forced, and I didn't enjoy the bits going on at Houston as much as the space survival parts. Still had a good time,
 and we will be getting a baby sitter to see this one in the cinema.
 
-## The Periphial
+## The Peripheral
 
 ### By William Gibson
 
@@ -57,7 +57,7 @@ near extinction, and have developed quite advanced telemetry and genetic technol
 remotely controlled "meat puppets". These two timelines start to converge as a mysterious worm hole is formed between
 them.
 
-I enjoyed all of this book, and I think you will too. It didn't hurt that autonomous quadcopters played an important
+I enjoyed all of this book, and I think you will too. It didn't hurt that autonomous quad-copters played an important
 role either.
 
 ## Armada

@@ -2,7 +2,7 @@
 date: "2015-01-05T00:00:00Z"
 published: true
 tags:
-- ios
+  - ios
 title: Testing posts from ios
 ---
 

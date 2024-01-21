@@ -2,8 +2,8 @@
 date: "2015-10-31T00:00:00Z"
 published: true
 tags:
-- rc
-- maker
+  - rc
+  - maker
 title: Lessons from building a 270 racing quad
 ---
 
@@ -21,7 +21,7 @@ some of the pitfalls I met on the way, so you might avoid them.
 Glass fiber is cheap, but it's heavier and softer than carbon fiber. I'm now slowly replacing all the parts. One
 upside of glass fiber is that it does not conduct electricity. But really, you want carbon fiber.
 
-## Discharged my lipo
+## Discharged my LiPo
 
 In order to power a quad, you need to discharge a lot of electricity in a short time. The best batteries for this task
 are lithium polymer batteries. They capable of discharging a lot of amps. However they have some significant disadvantages.
@@ -32,7 +32,7 @@ I tried forcing it to take current, but when it started heating up and swelling 
 
 ## Put the motors on in the wrong order
 
-In order to create lift, quadcopters need to have two clockwise and and two counterclockwise motors. Brushless motors
+In order to create lift, quad-copters need to have two clockwise and two counterclockwise motors. Brush-less motors
 can spin both ways. You just need to switch two of the cables to change the direction. Unfortunately the screws
 holding the propellers are ordered. I mixed up these, so the propellers kept unscrewing themselves when I was
 attempting to take off. Spectacular fail. I didn't want to remount all the motors, so I changed the flight controller
@@ -43,7 +43,7 @@ to use a custom mix, and reversed the order of all my motors.
 My first test flight was quite disheartening. As soon as I tried taking off, the copter flipped around and broke its
 propellers. After some digging, I realized this was because the I had mounted the naze32 flight controller sideways.
 Luckily you can tell the flight controller which direction is forwards. You can see if you have this problem by
-checking the visualization of the copter in cleanflight configurator
+checking the visualization of the copter in CleanFlight configurator
 
 ## Attached the motors with nylon screws
 
@@ -57,7 +57,7 @@ remount all the motors after all.
 I didn't know this, but there's two different standards for the 5.8 ghz antennas commonly used for video transmission
 from the copter to the pilot. One is SMA, and the other is RP-SMA. Of course I managed to buy the wrong one, and ended
 up with two male pins facing each other. Not good! Fortunately, I managed to find an adapter at the newly opened
-[kjell & co](http://kjell.com/).
+[Kjell & co](http://kjell.com/).
 
 These are the main mistakes I've made so far. I'm still a newbie in this hobby, but I'm hoping that I'll be able to
 increase my build-to-fly ratio in the next months, and work more on my pilot skills. I still have some improvements

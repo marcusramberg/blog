@@ -2,7 +2,7 @@
 date: "2020-07-29T00:22:10+02:00"
 published: true
 tags:
-- photo
+  - photo
 title: A Wild pokecat appears
 ---
 

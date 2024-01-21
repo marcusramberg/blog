@@ -2,9 +2,9 @@
 date: "2014-05-27T00:00:00Z"
 published: true
 tags:
-- mojolicious
-- perl
-- mojoconf
+  - mojolicious
+  - perl
+  - mojoconf
 title: Mojolicious::Plugin::RenderSteps
 ---
 
@@ -18,7 +18,7 @@ I also wrote a simple plugin-helper, which I think greatly simplify working
 with async controllers in Mojolicious. This what you have to do to setup async
 actions in mojolicious at the moment:
 
-``` perl
+```perl
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 
@@ -53,7 +53,7 @@ $self->ua->get($url->clone->query({q => 'mojo'}) => $delay->begin);
 
 With the help of my new helper, that can be turned into this:
 
-``` perl
+```perl
 #!/usr/bin/env perl
 use Mojolicious::Lite;
 
@@ -85,4 +85,4 @@ mango => \$mango->res->json('/hits/hits/0/\_source/release')
 ```
 
 PS. We are looking for someone to host Mojoconf 2015, and we've donated 2000
-EUR to get the next host kickstarted. Contact Oslo.pm if you're interested.
+EUR to get the next host kick-started. Contact Oslo.pm if you're interested.

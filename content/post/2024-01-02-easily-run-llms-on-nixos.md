@@ -1,5 +1,5 @@
 +++
-title = "Easily Run LLMs on Nixos"
+title = "Easily Run LLMs on nixOS"
 date = "2024-01-02"
 tags = [ "post", "llm", "nixos" ]
 categories = ["nixos"]

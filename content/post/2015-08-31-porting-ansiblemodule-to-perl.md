@@ -2,8 +2,8 @@
 date: "2015-08-31T00:00:00Z"
 published: true
 tags:
-- perl
-- ansible
+  - perl
+  - ansible
 title: Porting AnsibleModule to Perl.
 ---
 
@@ -39,15 +39,15 @@ but even an explicit way of setting JSON_MODE (ENV?) would be an improvement ove
 Using my AnsibleModule port still provides quite a bit of convenience though. For instance, you can do complex
 argument checking easily:
 
-  my $m = AnsibleModule->new(
-    argument_spec => {
-      name    => {required => 1},
-      enabled => {default  => 0, aliases => [qw/turned_on active/]},
-      type    => {type => choices => [qw/one two three/]},
-      similar => {type => 'dict'}
-    },
-    required_one_of => [qw/type similar/]
-  );
+my $m = AnsibleModule->new(
+argument_spec => {
+name => {required => 1},
+enabled => {default => 0, aliases => [qw/turned_on active/]},
+type => {type => choices => [qw/one two three/]},
+similar => {type => 'dict'}
+},
+required_one_of => [qw/type similar/]
+);
 
 Note that due to the malleability of Perl, we don't really care about typing beyond String/List/Dict and Bool (which
 supports the same values as the Python AnsibleModule bools). Everything else is treated as a scalar.
@@ -56,7 +56,7 @@ AnsibleModule also helps with supporting check mode in your module, just like th
 provide `Test::AnsibleModule` which lets you simply write unit tests for your module. As a convenience, you can test
 this module directly through the ansible-perl script command like this:
 
-   ansible-perl -p -m <module> -a '{"foo":"bar"}'
+ansible-perl -p -m <module> -a '{"foo":"bar"}'
 
 Use -h to see all the available options. The -p flag means ansible-perl uses
 [App::Fatpacker](https://metacpan.org/pod/App::FatPacker) to help you pack up your dependencies inside your Ansible

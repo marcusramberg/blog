@@ -1,25 +1,25 @@
 ---
 author:
-- Marcus Ramberg
+  - Marcus Ramberg
 draft: false
 publishDate: "2020-06-13T00:00:00+02:00"
 tags:
-- perl
-- convos
+  - perl
+  - convos
 title: Coturn for WebRTC NAT Traversal
 ---
 
 This article will show you how to set up [Coturn](https://github.com/coturn/coturn). This is a service that allows
-hosts behind NAT to communicate peer to peer with webrtc. STUN is helping to negotiate port/ip and TURN will proxy the
+hosts behind NAT to communicate peer to peer with WebRTC. STUN is helping to negotiate port/ip and TURN will proxy the
 actual traffic if all else fails.
 
 We're using this with [Convos](https://convos.chat/)' video IRC feature, but the same applies to other WebRTC projects.
 
 ## Installation {#installation}
 
-I'll be assuming you're on Ubutunu for this tutorial, so users on other distros will have to adjust the setup for
+I'll be assuming you're on Ubuntu for this tutorial, so users on other distros will have to adjust the setup for
 their environment. First we'll install the actual ubuntu package. If you don't already have it, you will also need
-letsencrypt to generate valid ssl certs.
+letsencrypt to generate valid SSL certs.
 
 <div class="code">
   <div></div>
@@ -60,12 +60,12 @@ cipher-list="ECDH+AESGCM:ECDH+CHACHA20:DH+AESGCM:ECDH+AES256:DH+AES256:ECDH+AES1
   <div></div>
 
 $ sudo certbot certonly --standalone --preferred-challenges http \\
-    --deploy-hook "systemctl restart coturn" \\
-    -d coturn.example.com
+--deploy-hook "systemctl restart coturn" \\
+-d coturn.example.com
 
 </div>
 
-certbort will automatically set up renewal of the certificate
+certbot will automatically set up renewal of the certificate
 
 Now let's enable the service. Add `TURNSERVER_ENABLED=1` to /etc/default/coturn and then
 `systemctl start coturn`
@@ -74,7 +74,7 @@ Now let's enable the service. Add `TURNSERVER_ENABLED=1` to /etc/default/coturn 
 
 To use such a server with Convos, it requires a couple of environment variables to be set:
 
-``` systemd
+```systemd
 Environment=CONVOS\_STUN=stun://user:<pass@coturn.example.><5349>
 Environment=CONVOS\_TURN=turn://user:<pass@coturn.example.><5349>
 ```

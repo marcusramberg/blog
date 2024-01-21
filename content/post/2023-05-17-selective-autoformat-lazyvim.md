@@ -13,9 +13,8 @@ published = true
 comments = true
 +++
 
-I'm a huge fan of Folke's Neovim distribution [lazyvim](
-https://www.lazyvim.org/). It has replaced my own custom lua config, and
-reduced the time I'm spending tweaking my config by a lot.
+I'm a huge fan of Folke's Neovim distribution [lazyvim](https://www.lazyvim.org/). It has replaced my own custom lua
+config, and reduced the time I'm spending tweaking my config by a lot.
 
 One nice thing is it enables format on save by default,
 which is actually what I want for almost all things. However in some repos I
@@ -27,7 +26,7 @@ That kinda works, but I sometimes forget, and have to undo after save and turn
 it off. However now I have [a better
 solution](https://github.com/marcusramberg/nix-config/commit/ca25bedf9a2d5516fd8131f1c99467538f7a7ffa):
 
-``` lua
+```lua
 vim.api.nvim_create_autocmd({ "BufEnter" }, {
   pattern = vim.fn.expand("~") .. "/Source/{nimdow,nixpkgs}/*",
   callback = function()

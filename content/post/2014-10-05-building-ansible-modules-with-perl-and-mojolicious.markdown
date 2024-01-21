@@ -2,8 +2,8 @@
 date: "2014-10-05T00:00:00Z"
 published: true
 tags:
-- perl
-- ansible
+  - perl
+  - ansible
 title: Building Ansible Modules with Perl and Mojolicious
 ---
 
@@ -71,7 +71,7 @@ Put your module in a library/ sub directory of your playbook folder, and you
 can just use it in your playbook like this:
 
 ```yaml
-local_action: cloudflare zone=theoutput.co name=sentry type=CNAME
+local_action: cloudflare zone=means.co name=sentry type=CNAME
 content=sentry.nordaaker.com service_mode=1 email={{cloudflare_user}}
 api_key={{cloudflare_api_key}}
 ```

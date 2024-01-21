@@ -1,11 +1,11 @@
 ---
 date: "2014-05-10T00:00:00Z"
 tags:
-- Docker
-- Drone
-- devops
-- testing
-title: Continous Delivery with Drone and Dokku
+  - Docker
+  - Drone
+  - devops
+  - testing
+title: Continuous Delivery with Drone and Dokku
 ---
 
 A part of my job as CTO of [Output](http://theoutput.co/) is managing our
@@ -20,13 +20,13 @@ However, there are always complications. Hard to install dependencies, Selenium
 tests, required infrastructure services. That is why I have grown to love
 [Drone](http://github.com/drone/drone). Run your test suite in a clean docker
 image every time, cache your dependencies (just like Heroku does), and run a
-deploy action of your choice if the test succed. Drone also supports various
+deploy action of your choice if the test succeed. Drone also supports various
 notification mechanisms, including Email (of course), IM and our favorite
 Slack.
 
 It also has support for a host of linked services, including PostgreSQL, MySQL,
 MongoDB and Redis, but writing your own is also easy if needed. I've added
-support to Beanstalkd for us, and plan to contribute this back soon.
+support to Beanstalk for us, and plan to contribute this back soon.
 
 To make this even sweeter, I've coupled Drone with
 [Dokku](http://dokkuapp.com/), a simple Heroku like PAAS built on top of
@@ -75,13 +75,13 @@ deploy:
   - 'perl deploy.pl'
 ```
 
-Let's go through it quickly; The backend is built on Padrino, and we run it
+Let's go through it quickly; The back-end is built on Padrino, and we run it
 using the most recent ruby image. The cache setting is to avoid having to
-reinstall all the rubygems on every test run, and then we setup ENV for the
-Database connection as well as setting padrino in test mode, and the X11
+reinstall all the ruby gems on every test run, and then we setup ENV for the
+Database connection as well as setting Padrino in test mode, and the X11
 display for integration tests.
 
-Then we configure two services to be used; the built in postgres service, and
+Then we configure two services to be used; the built in Postgres service, and
 the
 beanstalkd service we built. We also set up notifications for every event to the excellent
 [Slack](http://slack.com).

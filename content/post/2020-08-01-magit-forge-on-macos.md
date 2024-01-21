@@ -1,15 +1,15 @@
 ---
 author:
-- Marcus Ramberg
+  - Marcus Ramberg
 draft: false
 publishDate: "2020-08-01T00:00:00+02:00"
 tags:
-- emacs
-- github
+  - emacs
+  - github
 title: Magit Forge on macOS
 ---
 
-I've tried many editor git integrations over the years, in Vim, VS Code, IntelliJ, Sublime, as well as various git guis.
+I've tried many editor git integrations over the years, in Vim, VS Code, Intellij, Sublime, as well as various git GUIs.
 However I've never found something nearly as powerful and efficient day to day as working on the command line.
 
 While I will probably never give up the command line, with Emacs' Magit I've finally found a valuable companion which

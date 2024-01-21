@@ -2,7 +2,7 @@
 date: "2021-08-09T20:37:08+02:00"
 published: true
 tags:
-- photo
+  - photo
 title: Østensjøvannet
 ---
 
