@@ -17,5 +17,5 @@ so this is where you'll find my photos for the near future.
 <a data-flickr-embed="true" href="https://www.flickr.com/photos/marcusramberg/50766117157/in/dateposted-public/"
 title="Merry Christmas 2020"><img src="https://live.staticflickr.com/65535/50766117157_7b74747f29.jpg" width="500"
 height="500" alt="Merry Christmas 2020"></a><script async src="//embedr.flickr.com/assets/client-code.js"
-charset="utf-8"></rawhtml>
+charset="utf-8">
 {{</rawhtml>}}
