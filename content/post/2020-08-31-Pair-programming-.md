@@ -7,7 +7,7 @@ tags:
 title: Pair programming
 ---
 
-<img src="/images/2024-01-02-pair-programming.png" width=700/>
+<img alt="Pair programming" src="/images/2024-01-02-pair-programming.png" width=700/>
 
 To me this has always seemed intuitively right. Unfortunate that so many developers seem hesitant to participate in
 pair programming.

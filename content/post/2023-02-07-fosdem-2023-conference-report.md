@@ -2,11 +2,12 @@
 date: "2023-02-06T14:54:34+02:00"
 published: true
 tags:
-- post
-- fosdem
-- conference
-title: Conference report FosDem 2023
+  - post
+  - fosdem
+  - conference
+title: Conference report FOSDEM 2023
 ---
+
 I was really happy to be back in Brussels finally, after some cancelled years due to Covid.
 The official beer event at Delirium was still cancelled, but a bunch of us still
 gathered there on Friday afternoon. Was great to see old friends from the Open Source
@@ -24,7 +25,7 @@ split up a complicated drawing into two simpler ones.
 ### Send in the chowns()s
 
 This talk was a lot more low level, covering how OpenShift and eventually k8s is adding support
-for virtual uid ranges mapped into the host UIDs through the use of Linux user namespaces.
+for virtual uid ranges mapped into the host user ids through the use of Linux user namespaces.
 This allows things like safely running systemd inside a docker container for legacy apps.
 Hoping I won't need this, but still an interesting talk.
 
@@ -42,13 +43,13 @@ and the CI runtime env.
 
 This talk was about recent developments in the go debugger Delve. I def need to set this up
 for my neovim config. However the most interesting part of the talk was covering the new
-  eBPF backend for tracing. It's a lot faster than the existing ptrace backend, and in
-  some cases you can go from seconds of overhead to microseconds.
+eBPF backend for tracing. It's a lot faster than the existing ptrace backend, and in
+some cases you can go from seconds of overhead to microseconds.
 
-### Tinygo.org/bluetooth
+### tinygo.org/bluetooth
 
-This was a really funny and interesting talk about using tinygo on embedded devices,
-including lora chipsets for long range communications. They also launched a balloon the
+This was a really funny and interesting talk about using Tinygo on embedded devices,
+including lora for long range communications. They also launched a balloon the
 day after to demonstrate this. Tinygo def seems like a fun time to try for my next Arduino
 project.
 
@@ -58,7 +59,6 @@ Bottlerocket is a container focused os for Kubernetes sponsored by AWS. It's cre
 fast spin-up time compared to a traditional os like AWS Linux 2, and is def something I would
 look at when setting up an EKS cluster for GitHub Actions. The talk went through some details on
 how well protected the inner core of the os is, as well as strategies for keeping it up to date.
-(updog and more :)
 
 ### Headscale
 
@@ -69,10 +69,10 @@ is a Norwegian who works for Tailscale in their technical staff, and apparently 
 support and collaborate with the Headscale project.
 
 The talk also has some interesting points about how they used integration tests to improve their
-compability with the canonical implementation.
+compatibility with the canonical implementation.
 
 This was my last talk of Saturday, and I spent some time attending the various booths around
-the campus, as well as some delicious Beligan brews ;-)
+the campus, as well as some delicious Belgian brews ;-)
 
 ### Honorable Mention: Aurae
 
@@ -90,7 +90,7 @@ This talk was by one of the Python core contributors, and covered a lot of detai
 how async vs threads is working in Python, as well as details of the asyncio framework
 included in Python3. In general this is similar to node's promises, but yet slightly
 different. One interesting asyncio function is to_thread() (Added from 3.9+) to run blocking
-workloads as a separate thread in the runloop.
+workloads as a separate thread in the run-loop.
 
 He also recommended looking at FastAPI and Tariflette / Strawberry for async python
 rest / graphql frameworks.
@@ -104,7 +104,7 @@ it wasn't too interesting to me, seems they should pick better tools for their j
 
 ### Observability in Postgres
 
-This talk was about using `postgres_exporter` to monitor Posgres from Prometheus, which
+This talk was about using `postgres_exporter` to monitor Postgres from Prometheus, which
 is something we should probably look into for cloud services as well as our database traffic
 grow. It was also about some future developments of a internal postgres prometheus exporter,
 but this seems rather further away. Likewise it covered some potential support for postgres query
@@ -114,13 +114,13 @@ tracing for opentrace and such.
 
 This talk was mostly a nice overview of the main components of the Grafana Observability stack,
 including Loki, Tempo, Mimir and Grafana. Mostly known things to us, but interesting to see
-how things intereacted, showing how you can follow a traceid from loki into tempo for instance
+how things interacted, showing how you can follow a trace-id from Loki into tempo for instance
 It also covered some basic of TraceQL. Held by one of the Grafana Labs Engineering managers,
 and a smooth experience.
 
 ### A practical intro into OpenTelemetry
 
-This talk went more into detail about how you can get OpenTelemtry collection by just
+This talk went more into detail about how you can get OpenTelemetry collection by just
 including the Agent for JDK and python services. It also covered some parts of the
 added complexity for envs without a virtual machine like Rust, and mostly the same caveats
 hold through for golang, which means you have to do some work to get the traces.
@@ -133,8 +133,8 @@ After a quick intro we went into:
 
 ### NixOS is Great
 
-Which was mostly a talk about an ephemeral homelab setup using nixos and pixicores.
-The talk was mostly focused on netbootin diskless machines and didn't really cover
+Which was mostly a talk about an ephemeral home-lab setup using nixOS and [Pixicore](https://github.com/danderson/netboot/tree/main/pixiecore).
+The talk was mostly focused on netbootin disk-less machines and didn't really cover
 that much nix content.
 
 ### Pitfalls of Nix
@@ -156,12 +156,12 @@ language seems a lot more sense than nix, so they had some
 compelling arguments, but it's still missing flake support, so not quite ready
 for my needs. Will be following nickel-lang/nicker-nix and hoping for quick improvements :)
 
-### Playing with  Nix in adverse HPC
+### Playing with Nix in adverse HPC
 
 This talk was about university usage of nix in high performance computing. It had
 some interesting ideas like letting nodes share a store with nix_store serve, as well a
-using `rpmextract` to repackage rpms into nix. They also wrote a simple nix-wrap script
-to allow sandboxing nix packages. Should be available with the notes on fosdem.org
+using `rpmextract` to repackage rpm into nix. They also wrote a simple nix-wrap script
+to allow sand-boxing nix packages. Should be available with the notes on fosdem.org
 
 ### Contracts for free
 

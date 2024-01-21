@@ -10,4 +10,4 @@ tags:
 title: Threatening Router
 ---
 
-<img src="/images/2024-01-02-router.png" width=700/>
+<img alt="Threatening router" src="/images/2024-01-02-router.png" width=700/>

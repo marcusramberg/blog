@@ -27,6 +27,7 @@
         xclip -selection clipboard -t image/png -o > $FILE
         echo "<img src=\"/images/$(basename $FILE)\" width=700/>" | xclip -selection clipboard
       fi
+      git add "$FILE"
     '';
 
   };
@@ -40,8 +41,7 @@
   # https://devenv.sh/pre-commit-hooks/
   pre-commit.hooks = {
     actionlint.enable = true;
-    # hunspell.enable = true;
-    # hunspell.files = lib.mkForce "\\.md$";
+    cspell.enable = true;
     markdownlint.enable = true;
   };
 }
