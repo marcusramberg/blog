@@ -1,7 +1,7 @@
 ---
 date: "2020-08-04T19:54:57+02:00"
 externalUrl: https://apps.apple.com/no/app/memrise-learn-languages-fast/id635966718
-published: true
+draft: false
 tags:
   - ios
   - russian

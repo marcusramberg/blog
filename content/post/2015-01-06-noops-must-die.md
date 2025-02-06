@@ -1,7 +1,7 @@
 ---
 date: "2015-01-06T00:00:00Z"
 link: http://www.itskeptic.org/content/there-no-such-thing-noops-it-awful-word
-published: true
+draft: false
 tags:
 - ios
 - ops

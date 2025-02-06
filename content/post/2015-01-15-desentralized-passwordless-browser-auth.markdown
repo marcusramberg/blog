@@ -1,7 +1,7 @@
 ---
 date: "2015-01-15T00:00:00Z"
 link: http://substack.net/offline_decentralized_single_sign_on_in_the_browser
-published: true
+draft: false
 tags:
   - browser
   - cryptography

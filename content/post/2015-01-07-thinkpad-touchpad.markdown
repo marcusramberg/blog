@@ -1,7 +1,7 @@
 ---
 date: "2015-01-07T00:00:00Z"
 link: http://www.thinkwiki.org/wiki/Buttonless_Touchpad
-published: true
+draft: false
 tags:
   - from_ios
   - Linux

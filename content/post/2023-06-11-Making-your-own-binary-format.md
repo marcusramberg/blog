@@ -1,6 +1,6 @@
 ---
 date: "2023-06-11T23:24:36+02:00"
-published: true
+draft: false
 title: Making your own binary format
 externalUrl: https://www.muppetlabs.com/~breadbox/txt/mopb.html
 tags:

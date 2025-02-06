@@ -1,6 +1,6 @@
 ---
 date: "2020-06-15T08:28:13+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: View from train office

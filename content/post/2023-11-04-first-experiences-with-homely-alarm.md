@@ -5,7 +5,7 @@ tags = [ "post", "zigbee" ]
 categories = ["reviews"]
 
 comments = true
-published = true
+draft = false
 +++
 
 For the last few years, we've had managed alarm service from [Sector Alarm](https://www.sectoralarm.no). It's mostly

@@ -1,6 +1,6 @@
 ---
 date: "2020-06-11T12:08:18+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: Oslo Sunset

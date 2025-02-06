@@ -1,7 +1,7 @@
 ---
 date: "2015-01-06T00:00:00Z"
 link: https://github.com/blog/1939-how-github-uses-github-to-document-github
-published: true
+draft: false
 tags:
   - github
   - Jekyll

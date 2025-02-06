@@ -1,7 +1,7 @@
 ---
 date: "2020-08-14T20:04:46+02:00"
 externalUrl: https://github.com/Schrodinger-Hat/ImageGoNord-pip
-published: true
+draft: false
 tags:
   - link
 title: Nord-ify your wallpapers

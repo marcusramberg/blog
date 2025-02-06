@@ -1,7 +1,7 @@
 ---
 date: "2020-07-18T12:43:29+02:00"
 externalUrl: https://imgur.com/r/gifs/tdkQPU3
-published: true
+draft: false
 tags:
   - typography
   - GIFs

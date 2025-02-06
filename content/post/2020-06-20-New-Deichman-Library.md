@@ -1,6 +1,6 @@
 ---
 date: "2020-06-20T10:45:49+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: New Deichman Library

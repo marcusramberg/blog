@@ -1,7 +1,7 @@
 ---
 date: "2021-12-09T09:14:37+01:00"
 externalUrl: https://github.com/ramiroaraujo/alfred-type-clipboard-workflow
-published: true
+draft: false
 tags:
 - link
 title: Type clipboard with Alfred

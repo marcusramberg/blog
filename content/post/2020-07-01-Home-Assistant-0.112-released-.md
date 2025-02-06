@@ -1,7 +1,7 @@
 ---
 date: "2020-07-01T23:10:57+02:00"
 externalUrl: https://www.home-assistant.io/blog/2020/07/01/release-112/
-published: true
+draft: false
 tags:
   - home-automation
 title: Home Assistant 0.112 released

@@ -1,6 +1,6 @@
 ---
 date: "2022-07-25T20:33:46+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: Also why I’m always searching for golang

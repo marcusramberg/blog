@@ -1,7 +1,7 @@
 ---
 date: "2020-07-03T23:06:18+02:00"
 externalUrl: https://www.youtube.com/watch?v=f8-9nKOxZwc
-published: true
+draft: false
 tags:
   - concert
 title: Thomas Dybdahl - Life here is gold

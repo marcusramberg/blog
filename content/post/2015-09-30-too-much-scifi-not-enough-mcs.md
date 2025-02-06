@@ -1,6 +1,6 @@
 ---
 date: "2015-09-30T00:00:00Z"
-published: true
+draft: false
 tags:
   - books
   - sci-fi

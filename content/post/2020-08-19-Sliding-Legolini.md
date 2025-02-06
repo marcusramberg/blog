@@ -1,7 +1,7 @@
 ---
 date: "2020-08-19T22:08:21+02:00"
 externalUrl: https://legolini.com/
-published: true
+draft: false
 tags:
   - 3DPrinting
   - photo

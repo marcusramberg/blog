@@ -1,6 +1,6 @@
 ---
 date: "2020-11-26T15:26:59+01:00"
-published: true
+draft: false
 tags:
 - photo
 title: Print of the day - paint stirrer

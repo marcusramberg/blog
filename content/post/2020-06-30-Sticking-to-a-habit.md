@@ -1,7 +1,7 @@
 ---
 date: "2020-06-30T09:44:27+02:00"
 externalUrl: https://www.duolingo.com/course/ru/en/Learn-Russian
-published: true
+draft: false
 tags:
   - photo
   - self-improvement

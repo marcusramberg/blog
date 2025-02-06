@@ -1,7 +1,7 @@
 ---
 date: "2021-02-09T22:02:41+01:00"
 externalUrl: https://zigbee2mqtt.io
-published: true
+draft: false
 tags:
   - photo
   - home-automation

@@ -1,7 +1,7 @@
 ---
 date: "2020-07-31T23:16:04+02:00"
 externalUrl: https://zaiste.net/posts/shell-commands-rust/
-published: true
+draft: false
 tags:
 - unix
 - rust

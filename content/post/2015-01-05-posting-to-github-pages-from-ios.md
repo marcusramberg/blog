@@ -1,6 +1,6 @@
 ---
 date: "2015-01-05T00:00:00Z"
-published: true
+draft: false
 tags:
   - ios
 title: Testing posts from ios

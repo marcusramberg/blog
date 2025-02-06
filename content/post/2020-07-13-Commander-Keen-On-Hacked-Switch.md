@@ -1,7 +1,7 @@
 ---
 date: "2020-07-13T11:37:00+02:00"
 externalUrl: https://eliasoenal.com/2020/07/12/commander-keen-for-nintendo-switch/
-published: true
+draft: false
 tags:
 - games
 - console

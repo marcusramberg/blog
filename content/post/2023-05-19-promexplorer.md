@@ -5,7 +5,7 @@ tags = [ "post", "prometheus", "metrics", "nim", "observability" ]
 categories = ["prometheus"]
 
 comments = true
-published = true
+draft = false
 +++
 
 ## Introducing Promexplorer: A Tool for Prometheus Metrics Navigation

@@ -1,6 +1,6 @@
 ---
 date: "2020-06-20T13:18:17+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: Lambda is growing on me

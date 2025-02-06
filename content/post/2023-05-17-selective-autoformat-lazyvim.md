@@ -9,7 +9,7 @@ categories = [
 ]
 date = "2023-05-17"
 title = "Disabling nvim autoformat on a per-repo basis"
-published = true
+draft = false
 comments = true
 +++
 

@@ -5,7 +5,7 @@ tags = [ "post", "llm", "nixos" ]
 categories = ["nixos"]
 
 comments = true
-published = true
+draft = false
 +++
 
 With the recent AI craze, it's fun to play with local models. I like [ollama](https://ollama.ai/),

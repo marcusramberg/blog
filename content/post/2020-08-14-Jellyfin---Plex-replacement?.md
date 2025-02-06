@@ -1,7 +1,7 @@
 ---
 date: "2020-08-14T19:51:15+02:00"
 externalUrl: https://jellyfin.org/
-published: true
+draft: false
 tags:
   - link
 title: JellyFin - Plex replacement?

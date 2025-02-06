@@ -11,7 +11,7 @@ tags = [
 categories = ["conference"]
 
 comments = true
-published = true
+draft = false
 +++
 
 Attended Fosdem again this year and had a blast. Made a conference report for work, so figure I

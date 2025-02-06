@@ -1,6 +1,6 @@
 ---
 date: "2023-06-10T09:05:21+02:00"
-published: true
+draft: false
 title: nixOS for the impatient
 externalUrl: https://borretti.me/article/nixos-for-the-impatient
 tags:

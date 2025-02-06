@@ -1,6 +1,6 @@
 ---
 date: "2020-07-03T21:05:20+02:00"
-published: true
+draft: false
 tags:
   - photo
 title: Thomas Dybdahl at Akershus Fortress

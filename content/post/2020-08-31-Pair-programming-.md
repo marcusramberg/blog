@@ -1,7 +1,7 @@
 ---
 date: "2020-08-31T23:16:57+02:00"
 externalUrl: https://twitter.com/jbrancha/status/1300541335951339521
-published: true
+draft: false
 tags:
   - link
 title: Pair programming

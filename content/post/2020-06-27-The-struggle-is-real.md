@@ -1,6 +1,6 @@
 ---
 date: "2020-06-27T00:09:08+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: The struggle is real

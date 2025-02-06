@@ -5,7 +5,7 @@ tags = [ "post", "hugo", "devenv" ]
 categories = ["blog", "nix"]
 
 comments = true
-published = true
+draft = false
 +++
 
 I am using the [Hugo](https://gohugo.io/) static site generator to generate this blog. I am also using

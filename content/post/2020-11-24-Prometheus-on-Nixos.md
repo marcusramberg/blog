@@ -1,7 +1,7 @@
 ---
 date: "2020-11-24T07:58:34+01:00"
 externalUrl: https://christine.website/blog/prometheus-grafana-loki-nixos-2020-11-20
-published: true
+draft: false
 tags:
 - link
 - nixos

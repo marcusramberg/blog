@@ -1,6 +1,6 @@
 ---
 date: "2020-06-23T20:26:42+02:00"
-published: true
+draft: false
 tags:
 - photo
 title: Burning a horse for mid-summer

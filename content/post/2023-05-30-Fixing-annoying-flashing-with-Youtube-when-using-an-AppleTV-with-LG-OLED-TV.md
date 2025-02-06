@@ -5,7 +5,7 @@ tags = [ "post", "fix", "AppleTV" ]
 categories = ["Fix"]
 
 comments = true
-published = true
+draft = false
 +++
 So for the longest time I've been annoyed with black flashing whenever I'm watching YouTube videos or shorts on
 my AppleTV. I assumed this was related to the black screen between videos, but it turned out this assumption is

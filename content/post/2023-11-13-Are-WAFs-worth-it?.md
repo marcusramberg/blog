@@ -1,6 +1,6 @@
 ---
 date: "2023-11-13T23:25:59+01:00"
-published: true
+draft: false
 title: Are WAFs worth it?
 externalUrl: https://www.macchaffee.com/blog/2023/wafs/
 tags:
