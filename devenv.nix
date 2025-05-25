@@ -3,12 +3,16 @@
 {
   env.LANG = "en_US.UTF-8";
 
-  packages = with pkgs; [
-    hunspell
-    hunspellDicts.en_US
-    hugo
-    nodePackages.markdownlint-cli
-  ] ++ lib.optional stdenv.isLinux xclip ++ lib.optional stdenv.isDarwin pngpaste;
+  packages =
+    with pkgs;
+    [
+      hunspell
+      hunspellDicts.en_US
+      hugo
+      nodePackages.markdownlint-cli
+    ]
+    ++ lib.optional stdenv.isLinux xclip
+    ++ lib.optional stdenv.isDarwin pngpaste;
 
   scripts = {
     mkpost.exec = ''
@@ -16,7 +20,6 @@
       hugo new $POST
       nvim $POST
       git add $POST
-      git commit -m"feat: Add $POST"
     '';
     pasteimg.exec = ''
       FILE=static/images/$(date +%Y-%m-%d)-$1.png
@@ -33,15 +36,16 @@
   };
 
   processes = {
-    hugo.exec = "hugo serve";
+    hugo.exec = "hugo serve --baseURL http://mstudio.pig-crested.ts.net/";
+    tailscale.exec = "sudo tailscale serve -tcp 1313 1313";
   };
 
   enterShell = "hugo";
 
   # https://devenv.sh/pre-commit-hooks/
-  pre-commit.hooks = {
+  git-hooks.hooks = {
     actionlint.enable = true;
-    cspell.enable = true;
+    # cspell.enable = true;
     markdownlint.enable = true;
   };
 }

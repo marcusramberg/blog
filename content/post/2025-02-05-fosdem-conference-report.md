@@ -3,7 +3,6 @@ title = "Fosdem 2025 Conference Report"
 date = "2025-02-05"
 externalUrl =  "/fosdem-2025.html"
 tags = [
-   "post",
    "conference",
    "fosdem",
    "link"
